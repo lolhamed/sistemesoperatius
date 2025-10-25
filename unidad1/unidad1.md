@@ -13,3 +13,16 @@ Primer de tot, començarem amb la instal·lació de la màquina virtual d'Ubuntu
 <img width="952" height="671" alt="image" src="https://github.com/user-attachments/assets/5c6dc660-84f0-4ca5-91bb-bd6b37090578" />
 
 He posat per defecte la configuració.
+
+
+
+
+Després de fer la instal·lació, actualitzem la llista de paquets disponibles.
+
+
+
+
+<img width="811" height="110" alt="image" src="https://github.com/user-attachments/assets/1ac0255a-bc2a-4780-b283-44ad3b43e5d6" />
+
+
+
