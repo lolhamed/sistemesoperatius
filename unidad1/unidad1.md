@@ -76,3 +76,19 @@ Per obrir la interficie gràfica:
 
 
 
+
+
+
+
+
+
+
+
+
+
+dpkg és el gestor de paquets bàsic de Debian i sistemes derivats com Ubuntu. S’encarrega de instal·lar, eliminar i gestionar paquets .deb al teu sistema.
+
+Un paquet .deb és un fitxer que conté programari precompilat, juntament amb informació sobre dependències i fitxers que s’han d’instal·lar.
+
+dpkg treballa a nivell individual de paquet, a diferència d’apt o apt-get, que gestionen repositoris sencers i les dependències automàticament.
+
