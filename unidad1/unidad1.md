@@ -194,6 +194,99 @@ Com per exemple, la contrasenya:
 
 
 
+<img width="563" height="116" alt="image" src="https://github.com/user-attachments/assets/73346bd0-3f49-42af-bab8-99a9c187ab3d" />
+
+Si afegim una carpeta anomenada vesper és crearà automàticament pero no sera root a diferencia de l'altra comanda, nosaltres serem el root de vesper. Si volem modificar aixo utilitzem la comanda CHOWN.
+
+<img width="586" height="153" alt="image" src="https://github.com/user-attachments/assets/fd0be1f3-432f-45b6-8c67-8879226b8aa4" />
+
+I d'aquesta manera el root pasa a ser l'usuari vesper
+
+
+
+
+
+
+Un altre inconvenient del useradd es que si volem fer un apt update amb l'usuari vesper no podrem per la nostra falta de permisos
+
+<img width="1056" height="147" alt="image" src="https://github.com/user-attachments/assets/aeda4171-dc47-4bce-acf9-f26450601963" />
+
+Resumint, els usuaris creats amb useradd no poden fer sudo
+
+
+
+
+<img width="612" height="156" alt="image" src="https://github.com/user-attachments/assets/959d41d9-764d-4655-b149-112a605512dc" />
+
+Si fem aixó podrem fer ús de sudo.
+
+
+
+
+També si fem deluser seguit del usuari i el grup el borrem pero es important especificar el grup o borrarem l'usuari en general
+
+<img width="546" height="81" alt="image" src="https://github.com/user-attachments/assets/ba71f709-3dd1-40ef-ab4a-fbfe230c8582" />
+
+
+
+
+
+Una altra manera de ferho és amb usermod per ho llevarà dels altres grups
+
+
+
+<img width="586" height="105" alt="image" src="https://github.com/user-attachments/assets/1682937f-f1f2-43a8-b049-577e5dbfd9af" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="471" height="111" alt="image" src="https://github.com/user-attachments/assets/70677f5f-e162-488a-b989-aed5940de570" />
+
+La comanda ens permet crear un grup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
