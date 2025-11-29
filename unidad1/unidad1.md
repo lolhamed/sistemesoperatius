@@ -284,9 +284,15 @@ Per borrar el grup:
 
 
 
+
+
+
 <img width="568" height="145" alt="image" src="https://github.com/user-attachments/assets/3131a95b-46d0-4ede-8cf6-fd5912ed06f3" />
 
 En aquesta comanda no hem fet que l'usuari Vesper estigui al grup asix sino que asix té permisos sobre l'usuari vesper.
+
+
+
 
 
 
@@ -305,6 +311,14 @@ En aquesta comanda no hem fet que l'usuari Vesper estigui al grup asix sino que 
 
 
 La comanda umask ens permet veure les mascares. La màscara canviarà si som usuari sudo o no
+
+
+
+
+
+
+
+<img width="451" height="248" alt="image" src="https://github.com/user-attachments/assets/76f565cd-8ce7-4c5f-9fde-a62ad6f20162" />
 
 
 
@@ -335,7 +349,7 @@ Modificarem ara la comanda de tal manera que els que formen part del grup colors
 <img width="545" height="115" alt="image" src="https://github.com/user-attachments/assets/9e884010-0dc4-4f51-87b4-2634285953e4" />
 
 
-D'aquesta manera els permisos han canviat
+D'aquesta manera els permisos han canviat. Només a l'usuari alumne1.
 
 
 
