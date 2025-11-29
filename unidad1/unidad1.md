@@ -22,6 +22,7 @@ La mida del sector es la unitat minima fisica on es guarden les dades en un disc
 
 
 
+<img width="448" height="76" alt="image" src="https://github.com/user-attachments/assets/c069a6c1-f9ce-443c-a618-3242c484bd74" />
 
 
 
@@ -62,6 +63,12 @@ Gestió particions
 
 
 GPARTED
+
+
+<img width="451" height="129" alt="image" src="https://github.com/user-attachments/assets/cd41ddcb-2940-491f-bf85-f9d1b42ac7da" />
+
+
+
 
 Particio: tros fisic del disc dur
 Amb elk gparted podem gestionar particions pero no podem cambiar la mida del block. S’ha de fer amb comandes.
@@ -264,18 +271,71 @@ Una altra manera de ferho és amb usermod per ho llevarà dels altres grups
 
 
 
-
+La comanda següent ens permet crear un grup
 
 
 <img width="471" height="111" alt="image" src="https://github.com/user-attachments/assets/70677f5f-e162-488a-b989-aed5940de570" />
 
-La comanda ens permet crear un grup
+
+
+Per borrar el grup:
+<img width="480" height="87" alt="image" src="https://github.com/user-attachments/assets/95599446-27f1-45bb-a7ae-fc69003d7f2b" />
+
+
+
+
+<img width="568" height="145" alt="image" src="https://github.com/user-attachments/assets/3131a95b-46d0-4ede-8cf6-fd5912ed06f3" />
+
+En aquesta comanda no hem fet que l'usuari Vesper estigui al grup asix sino que asix té permisos sobre l'usuari vesper.
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+<img width="457" height="222" alt="image" src="https://github.com/user-attachments/assets/ac372087-e969-48a6-993c-9bce5d9da708" />
+
+
+La comanda umask ens permet veure les mascares. La màscara canviarà si som usuari sudo o no
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Després de crear una 3 usuaris i dos grups la comanda ens permet cambiar el grup principal on prèviament estaba l'usuari. En aquest cas l'usuari és alumne1
+
+
+<img width="534" height="122" alt="image" src="https://github.com/user-attachments/assets/d7ea72ee-348c-4d45-b13e-76316782fceb" />
+
+
+
+
+Modificarem ara la comanda de tal manera que els que formen part del grup colors puguin entrar pero que no pudin ni crear arxius ni esborrar.
+
+
+<img width="545" height="115" alt="image" src="https://github.com/user-attachments/assets/9e884010-0dc4-4f51-87b4-2634285953e4" />
+
+
+D'aquesta manera els permisos han canviat
 
 
 
