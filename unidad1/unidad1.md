@@ -130,6 +130,8 @@ COMANDES
 
 
 <img width="754" height="549" alt="image" src="https://github.com/user-attachments/assets/b5323c46-3314-4ca5-ab74-a28f2c875155" />
+
+
 La comanda adduser ens permet crear un usuari. Com podem veure podem afegir al usuari més informació com ara contrasenya cosa que de moment omitirem
 
 
@@ -137,6 +139,7 @@ La comanda adduser ens permet crear un usuari. Com podem veure podem afegir al u
 
 
 <img width="865" height="313" alt="image" src="https://github.com/user-attachments/assets/faeffdbb-9d5e-466e-8a35-f1dbee3e712e" />
+
 Al fer un cat etc passwd podem confirmar el usuari creat
 
 
