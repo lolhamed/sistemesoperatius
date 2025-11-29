@@ -119,7 +119,16 @@ La mida de block o cluster es la unitat minima logica on es guarden les dades a 
 
 
 
+
+
+
+
+
+
+
 COMANDES
+
+
 
 <img width="754" height="549" alt="image" src="https://github.com/user-attachments/assets/b5323c46-3314-4ca5-ab74-a28f2c875155" />
 La comanda adduser ens permet crear un usuari. Com podem veure podem afegir al usuari més informació com ara contrasenya cosa que de moment omitirem
@@ -127,8 +136,11 @@ La comanda adduser ens permet crear un usuari. Com podem veure podem afegir al u
 
 
 
+
 <img width="865" height="313" alt="image" src="https://github.com/user-attachments/assets/faeffdbb-9d5e-466e-8a35-f1dbee3e712e" />
 Al fer un cat etc passwd podem confirmar el usuari creat
+
+
 
 
 
@@ -144,9 +156,12 @@ Ara entrem a l'usuari Vesper
 
 
 
+
+
 <img width="275" height="66" alt="image" src="https://github.com/user-attachments/assets/9c99614e-8894-468a-b0d6-e85534182d92" />
 
 I sortim de l'usuari Vesper
+
 
 
 
@@ -161,8 +176,12 @@ La comanda ens permet borrar l'usuari, la grub i el home amb -r.
 
 
 
+
 <img width="409" height="46" alt="image" src="https://github.com/user-attachments/assets/c879b700-e00f-47c6-a2d3-d16fb2a050f4" />
 La comanda useradd també crea un usuari, si fem cat està. La comanda useradd no demana contrasenya i si creem un usuari amb aquesta comanda si o si hem de configurar l'usuari i afegir més coses.
+
+
+
 
 
 
