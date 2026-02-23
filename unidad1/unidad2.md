@@ -154,6 +154,36 @@ Si escribim kill -9 seguit de la PDI de firefox (en aquest cas era 6589) veurem 
 
 <img width="1516" height="816" alt="image" src="https://github.com/user-attachments/assets/9f0f1899-65fe-4d91-88f5-725fa4db5fe9" />
 
+## Gestió d'usuaris, grups i permisos
+
+Començem amb la gestió d'usuaris utilitzant gnome-system tools i primer que tot hem d'instal·lar-lo:
+
+<img width="788" height="349" alt="image" src="https://github.com/user-attachments/assets/a8afdb3f-d1c6-4bce-b10f-a00c7e20894e" />
+
+<h4>Fitxers implicats</h4>
+
+nano /etc/passwd: aquest arxiu guarda informació bàsica per a cada usuari del sistema
+
+<img width="820" height="531" alt="image" src="https://github.com/user-attachments/assets/1440efa0-b27f-406b-891e-8b9636ef9a90" />
+
+nano /etc/group: aquest arxiu gestiona els grup d'usuaris:
+<img width="812" height="525" alt="image" src="https://github.com/user-attachments/assets/e4ce6dbd-544e-4c14-a731-4ff77399eb00" />
+
+nano /etc/shadow: aquest arxiu emmagatzema les contrasenyes xifrades dels usuaris i a més, informació adicional de seguretat:
+<img width="810" height="532" alt="image" src="https://github.com/user-attachments/assets/89f23b4e-c7fa-4881-b0ac-33addc610c29" />
+
+nano /etc/gshadow: aquest arxiu és el mateix que el shadow, pero la diferència és que gshadow és per als grups d'usuaris:
+<img width="811" height="466" alt="image" src="https://github.com/user-attachments/assets/0d1bfeae-b122-42ff-9e0c-665df52bac22" />
+
+
+
+
+
+
+
+
+
+
 
 
 
