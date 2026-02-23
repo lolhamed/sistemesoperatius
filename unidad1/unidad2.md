@@ -78,6 +78,43 @@ Si utilitzem la comanda pstree podrem veure tots els processos que están en fun
 <img width="805" height="529" alt="image" src="https://github.com/user-attachments/assets/156c07fd-bacd-4a8e-88af-5b66c180b7d5" />
 
 
+<h4>top</h4>
+
+Top serveix per mostrar en temps real els processos que s’estan executant i els recursos que utilitzen.</p>
+Quan executes top, veuràs informació com:
+
+PID → identificador del procés
+
+USER → usuari que executa el procés
+
+%CPU → percentatge de CPU que està utilitzant
+
+%MEM → percentatge de memòria RAM que utilitza
+
+COMMAND → nom del procés
+
+<h3>Control de procesos</h3>
+
+
+<h4>CTRL C</h4>
+
+Ctrl c serveix per interrompre un procés que s’està executant.
+
+Exemple:
+<img width="983" height="157" alt="image" src="https://github.com/user-attachments/assets/14418c79-5798-4002-bae5-03d2c927b882" />
+
+<h4>CTRL Z</h4>  
+Ctrl z serveix per aturar temporalment un procés
+
+Mateix exemple diferent comanda i resultat:
+
+<img width="983" height="181" alt="image" src="https://github.com/user-attachments/assets/46a18033-566f-4ca9-b6f6-bfee6aa2f9fd" />
+
+
+
+
+
+
 
 
 
