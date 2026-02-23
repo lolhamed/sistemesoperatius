@@ -68,4 +68,17 @@ Només borra el sistema de fitxers. El disc es prepara amb la creació del siste
 
 
 
+## Gestió de processos
+
+Un procés és un programa que se està executant en un determinant moment.
+
+Si utilitzem la comanda pstree podrem veure tots els processos que están en funcionament, en forma d'arbre, per veure quin es el pare i quin es el fill en cada procés
+<img width="816" height="531" alt="image" src="https://github.com/user-attachments/assets/4ec4f271-054b-418b-ad68-6f846ea6aed6" />
+<img width="817" height="532" alt="image" src="https://github.com/user-attachments/assets/667f6788-3ff4-4374-a01d-c9941ec7c1f8" />
+<img width="805" height="529" alt="image" src="https://github.com/user-attachments/assets/156c07fd-bacd-4a8e-88af-5b66c180b7d5" />
+
+
+
+
+
 
