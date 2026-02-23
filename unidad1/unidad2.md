@@ -176,6 +176,7 @@ nano /etc/gshadow: aquest arxiu és el mateix que el shadow, pero la diferència
 <img width="811" height="466" alt="image" src="https://github.com/user-attachments/assets/0d1bfeae-b122-42ff-9e0c-665df52bac22" />
 
 
+
 <h4>Comandes bàsiques</h4>
 
 Crear un usuari amb adduser:
@@ -183,6 +184,7 @@ Crear un usuari amb adduser:
 <img width="832" height="560" alt="image" src="https://github.com/user-attachments/assets/8b5a77e5-2394-45dc-846d-b309cbb97100" />
 
 Ara iniciem sessió amb gina:
+
 <img width="391" height="110" alt="image" src="https://github.com/user-attachments/assets/2c7d661d-ce49-4f9b-befe-4dfcc9863c23" />
 
 Comanda useradd:
@@ -194,12 +196,16 @@ Eliminem el usuari gina amb deluser que borra tot alló relacionat amb l'usuari 
 <img width="474" height="134" alt="image" src="https://github.com/user-attachments/assets/357379e7-29e0-446a-b0e5-8a94eeea71bc" />
 
 Per a bloquejar i desbloquejar a un usuari:
+
 <img width="976" height="328" alt="image" src="https://github.com/user-attachments/assets/88426d44-d8b2-4665-9e57-616d5ebb71fe" />
 
+
 Crear un grup:
+
 <img width="607" height="107" alt="image" src="https://github.com/user-attachments/assets/ef19cc67-6dfa-46f8-82dd-a3efe4f83ef0" />
 
 Modificar i eliminar un grup:
+
 <img width="678" height="334" alt="image" src="https://github.com/user-attachments/assets/c46f8b85-ed84-46a2-a801-cd73460fc005" />
 
 
