@@ -1,94 +1,99 @@
----
-layout: default
-title: "Sprint 1"
----
+Virtualizacio i instalacio del SO Ubuntu
 
-## Sprint 2
 
+Primer de tot selecionarem la memoria ram de la maquina virtual el minim son 4 GB i com a el ordinador host de 32GB introduirem 8GB despres com sera dual introduirem 80 GB de disc 40 GB per a ubuntu i 40 GB per a windows el minim de ubuntu son 25 GB i a la xarxa selecionarem xarxa NAT la diferencia amb el NAT es que els dos poden accedir a internet pero la xarxa nat poden veures varies maquines entre si la maquina anfitrió fa de router
 
+<img width="579" height="619" alt="image" src="https://github.com/user-attachments/assets/bb6ec185-c8c2-4450-90e5-f7c23b8bbccd" />
 
 
+Després procedim amb la instal·lació de la màquina virtual de Ubuntu:
 
+<img width="804" height="515" alt="image" src="https://github.com/user-attachments/assets/5e75c7ba-748d-4b1c-a82a-2ce24d628516" />
 
+<img width="804" height="385" alt="image" src="https://github.com/user-attachments/assets/4901dd04-67a1-44de-9f2d-cff8c4aed61c" />
 
 
-INDEX SPRINT 2
+Després inserim el dvd de les guest additions i executem autorun.sh
 
-Sistemes de fitxers i particions
+# Llicenciament
 
-Mida sector
+## Ubuntu
 
-La mida del sector es la unitat minima fisica on es guarden les dades en un disco. Per defecte la mida son 512 bytes i no la podem modificar.
+Ubuntu es una distribució de Linux basada en codi obert. La seva filosofia és permetre l'ús, modificació i redistribució del programari, tot respectant les condicions de les llicències corresponents. A continuació es detallen els principals tipus de llicències que trobem a Ubuntu.
 
+## 1. Kernel Linux
 
+- **Llicència:** GPLv2 (GNU General Public License versió 2)  
+- **Descripció:** Permet l’ús, modificació i distribució del codi font del nucli Linux. Qualsevol modificació distribuïda ha de mantenir la mateixa llicència.
 
-<img width="448" height="76" alt="image" src="https://github.com/user-attachments/assets/c069a6c1-f9ce-443c-a618-3242c484bd74" />
+## 2. Programari lliure i codi obert
 
+La majoria de les aplicacions incloses a Ubuntu estan sota llicencies de codi obert, com per exemple:
 
+- **GPL (General Public License):** Ex. GNU Core Utilities, Bash.  
+- **LGPL (Lesser General Public License):** Ex. biblioteques compartides com GTK.  
+- **MIT / BSD:** Ex. moltes utilitats de desenvolupament i biblioteques gràfiques.  
+- **Apache License:** Ex. alguns serveis i aplicacions web.
 
 
+  ## GESTORS D'ARRENCADA PER A INSTAL·LACIONS DUALS
+  
+En una instal·lació dual boot amb Ubuntu i Windows, el gestor d’arrencada s’encarrega de permetre escollir quin sistema operatiu iniciar.
+Ubuntu utilitza GRUB (GRand Unified Bootloader) com a gestor d’arrencada principal, mentre que Windows fa servir el seu propi gestor (Windows Boot Manager).
 
+Quan s’instal·la Windows després d’Ubuntu, el seu instal·lador sobreescriu el sector d’arrencada (MBR o EFI), i això fa que el GRUB quedi eliminat o inactiu.
 
-Mida block
-La mida de block o cluster es la unitat minima logica on es guarden les dades a nivell de sistema operatiu. Per defecte son 2096 bytes. I aquesta mida si la podem modificar.
-Quan? quan es formateja la partició. I cada particio del disc pot tenir una mida de bloc i un sistema de fitxers diferent.
+  Una vegada acabada la instal·lació de la màquina virtual d'Ubuntu i configurada la partició, farem un gestor d'arrencada instal·lant Windows:
 
-Fragmentació interna
-Els blocs son massa grans del que es vol guardar i es desaprofita espai al disc
+  <img width="525" height="381" alt="image" src="https://github.com/user-attachments/assets/16805853-028b-4b28-a8ce-e8636a1fed7c" />
 
-Fragmentació externa
-Es quan un arxiu no esta guardat en blocs consecutius de la memoria i els seus accesos son més lents i per tant baixa el rendiment.
 
-Sistemes de fitxers
-El sistema de fitxers condiciona moltes coses i cada sistema de fitxers esta optimitzat per a unes coses o unes altres i cada sistema de fitxer té unes limitacions.
+  Escollim la partició prèviament configurada:
 
-Tipus de formateig
-Baix nivell
-Esborra tot (fitxers, sistemes de fitxers i intenta arreglar sectors defectuosos) pero necesitem programes especifics. No es possible a través de sistemes operatius.
+  <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/04f1385d-fb82-4dad-b0d7-5ace8c040a53" />
 
-Mig nivell
-No esborra arxius només esborra el sistema de fitxers.
-Sectors defectuosos ignorats totalment
-Més lent que el d’alt nivell
 
-Alt nivell
-No esborra els arxius només esborra el sistema de fitxers. 
-Els sectors defectuosos son ignorats totalment
+  Windows instal·lat!
 
-Gestió particions
+  <img width="1008" height="672" alt="image" src="https://github.com/user-attachments/assets/7149116e-3a7a-42f5-b137-e288f871a1a7" />
 
 
+  Una vegada Windows està instal·lat inserim la ISO al supergrub:
 
+  <img width="474" height="133" alt="image" src="https://github.com/user-attachments/assets/eaf0c899-17c7-42da-955f-438007ca7aab" />
 
 
+  Després engegem la màquina i entrem al boot manager:
 
-GPARTED
+  <img width="639" height="385" alt="image" src="https://github.com/user-attachments/assets/f8426b6c-66fe-4780-a4e3-7127edb038b4" />
 
 
-<img width="451" height="129" alt="image" src="https://github.com/user-attachments/assets/cd41ddcb-2940-491f-bf85-f9d1b42ac7da" />
+  Seleccionem "detect and show boot methods":
 
+  <img width="604" height="278" alt="image" src="https://github.com/user-attachments/assets/d110c71d-0bbb-435a-940e-336c1b79d20b" />
 
+  IMPORTANT, escollir Ubuntu
 
+  <img width="602" height="274" alt="image" src="https://github.com/user-attachments/assets/9d9de665-50b0-48a4-8033-d103c81f2407" />
 
-Particio: tros fisic del disc dur
-Amb elk gparted podem gestionar particions pero no podem cambiar la mida del block. S’ha de fer amb comandes.
+  
 
-Un volum és una capa d’abstraccio que es posa damunt de les particions i/o discos
+  Una vegada fem aixó tornem a la màquina de Ubuntu, i posteriorment montem el EFI
 
+  <img width="622" height="84" alt="image" src="https://github.com/user-attachments/assets/2c9b1d31-70a5-45ef-b756-6b65390686c3" />
 
-Comaneds
 
-Gestio procesos
-GEstio d’usuaris i grups i permisos
-Copies de seguretat i atomatitzacio de tasques
-Quotes d’usuari
 
+  A posteriori, haurem de reinstallar el GRUB
 
+  <img width="644" height="77" alt="image" src="https://github.com/user-attachments/assets/4c57f309-e63d-4ec2-9b68-1c66d7af1b42" />
 
 
 
+  Una vegada el GRUB està instal·lat una altra vegada, hem d'escriure "GRUB_DISABLE_OS_PROBER=false
 
 
+  <img width="754" height="478" alt="image" src="https://github.com/user-attachments/assets/5a04345c-35f9-4e7b-8048-ff92ebff62a2" />
 
 
 
@@ -98,268 +103,7 @@ Quotes d’usuari
 
 
 
-
-
-
-
-La mida del sector es la unitat minima fisica on es guarden les dades en un disco. Per defecte la mida son 512 bytes i no la podem modificar.
-
-La mida de block o cluster es la unitat minima logica on es guarden les dades a nivell de sistema operatiu. Per defecte son 2096 bytes. I aquesta mida si la podem modificar. Quan? quan es formateja la partició. I cada particio del disc pot tenir una mida de bloc i un sistema de fitxers diferent.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-COMANDES
-
-
-
-<img width="754" height="549" alt="image" src="https://github.com/user-attachments/assets/b5323c46-3314-4ca5-ab74-a28f2c875155" />
-
-
-La comanda adduser ens permet crear un usuari. Com podem veure podem afegir al usuari més informació com ara contrasenya cosa que de moment omitirem
-
-
-
-
-
-<img width="865" height="313" alt="image" src="https://github.com/user-attachments/assets/faeffdbb-9d5e-466e-8a35-f1dbee3e712e" />
-
-Al fer un cat etc passwd podem confirmar el usuari creat
-
-
-
-
-
-
-<img width="636" height="155" alt="image" src="https://github.com/user-attachments/assets/295cdc5e-1473-4c1b-a61e-aedd3ffbb418" />
-
-Si anem a la carpeta home i fem un ls -l podrem veure que es crea una carpeta home i donen els permisos que toquen.
-
-
-
-
-<img width="414" height="113" alt="image" src="https://github.com/user-attachments/assets/9840f08a-c25a-4d4d-8cf8-38461fce1763" />
-
-Ara entrem a l'usuari Vesper
-
-
-
-
-
-<img width="275" height="66" alt="image" src="https://github.com/user-attachments/assets/9c99614e-8894-468a-b0d6-e85534182d92" />
-
-I sortim de l'usuari Vesper
-
-
-
-
-
-
-
-<img width="615" height="114" alt="image" src="https://github.com/user-attachments/assets/171f42c7-80b8-42f5-bbaf-dd8d35091ef9" />
-
-La comanda ens permet borrar l'usuari, la grub i el home amb -r.
-
-
-
-
-
-
-
-<img width="409" height="46" alt="image" src="https://github.com/user-attachments/assets/c879b700-e00f-47c6-a2d3-d16fb2a050f4" />
-
-La comanda useradd també crea un usuari, si fem cat està. La comanda useradd no demana contrasenya i si creem un usuari amb aquesta comanda si o si hem de configurar l'usuari i afegir més coses.
-
-
-
-
-
-
-
-
-
-
-Com per exemple, la contrasenya:
-
-<img width="597" height="135" alt="image" src="https://github.com/user-attachments/assets/7a032277-7985-4dd4-a183-76ac56e9b71b" />
-
-
-
-
-
-
-<img width="563" height="116" alt="image" src="https://github.com/user-attachments/assets/73346bd0-3f49-42af-bab8-99a9c187ab3d" />
-
-Si afegim una carpeta anomenada vesper és crearà automàticament pero no sera root a diferencia de l'altra comanda, nosaltres serem el root de vesper. Si volem modificar aixo utilitzem la comanda CHOWN.
-
-<img width="586" height="153" alt="image" src="https://github.com/user-attachments/assets/fd0be1f3-432f-45b6-8c67-8879226b8aa4" />
-
-I d'aquesta manera el root pasa a ser l'usuari vesper
-
-
-
-
-
-
-Un altre inconvenient del useradd es que si volem fer un apt update amb l'usuari vesper no podrem per la nostra falta de permisos
-
-<img width="1056" height="147" alt="image" src="https://github.com/user-attachments/assets/aeda4171-dc47-4bce-acf9-f26450601963" />
-
-Resumint, els usuaris creats amb useradd no poden fer sudo
-
-
-
-
-<img width="612" height="156" alt="image" src="https://github.com/user-attachments/assets/959d41d9-764d-4655-b149-112a605512dc" />
-
-Si fem aixó podrem fer ús de sudo.
-
-
-
-
-També si fem deluser seguit del usuari i el grup el borrem pero es important especificar el grup o borrarem l'usuari en general
-
-<img width="546" height="81" alt="image" src="https://github.com/user-attachments/assets/ba71f709-3dd1-40ef-ab4a-fbfe230c8582" />
-
-
-
-
-
-Una altra manera de ferho és amb usermod per ho llevarà dels altres grups
-
-
-
-<img width="586" height="105" alt="image" src="https://github.com/user-attachments/assets/1682937f-f1f2-43a8-b049-577e5dbfd9af" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-La comanda següent ens permet crear un grup
-
-
-<img width="471" height="111" alt="image" src="https://github.com/user-attachments/assets/70677f5f-e162-488a-b989-aed5940de570" />
-
-
-
-Per borrar el grup:
-<img width="480" height="87" alt="image" src="https://github.com/user-attachments/assets/95599446-27f1-45bb-a7ae-fc69003d7f2b" />
-
-
-
-
-
-
-
-<img width="568" height="145" alt="image" src="https://github.com/user-attachments/assets/3131a95b-46d0-4ede-8cf6-fd5912ed06f3" />
-
-En aquesta comanda no hem fet que l'usuari Vesper estigui al grup asix sino que asix té permisos sobre l'usuari vesper.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img width="457" height="222" alt="image" src="https://github.com/user-attachments/assets/ac372087-e969-48a6-993c-9bce5d9da708" />
-
-
-La comanda umask ens permet veure les mascares. La màscara canviarà si som usuari sudo o no
-
-
-
-
-
-
-
-<img width="451" height="248" alt="image" src="https://github.com/user-attachments/assets/76f565cd-8ce7-4c5f-9fde-a62ad6f20162" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Després de crear una 3 usuaris i dos grups la comanda ens permet cambiar el grup principal on prèviament estaba l'usuari. En aquest cas l'usuari és alumne1
-
-
-<img width="534" height="122" alt="image" src="https://github.com/user-attachments/assets/d7ea72ee-348c-4d45-b13e-76316782fceb" />
-
-
-
-
-Modificarem ara la comanda de tal manera que els que formen part del grup colors puguin entrar pero que no pudin ni crear arxius ni esborrar.
-
-
-<img width="545" height="115" alt="image" src="https://github.com/user-attachments/assets/9e884010-0dc4-4f51-87b4-2634285953e4" />
-
-
-D'aquesta manera els permisos han canviat. Només a l'usuari alumne1.
-
-
-
-
-
-
-
+  
 
 
 
