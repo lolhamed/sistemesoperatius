@@ -110,6 +110,59 @@ Mateix exemple diferent comanda i resultat:
 
 <img width="983" height="181" alt="image" src="https://github.com/user-attachments/assets/46a18033-566f-4ca9-b6f6-bfee6aa2f9fd" />
 
+<h4>Jobs</h4>
+
+Ens mostra els processos en segon pla:
+
+<img width="802" height="324" alt="image" src="https://github.com/user-attachments/assets/1cdf20df-51dd-4434-8c3c-4eb3d0909f41" />
+
+<h4>FG</h4>
+
+El que fa FG és tornar el primer pla el procés:
+
+<img width="783" height="292" alt="image" src="https://github.com/user-attachments/assets/61292965-1b7a-4fa7-9117-733d87dabe6b" />
+
+<h4>HTOP</h4>
+
+Mostra els processos en temps real:
+
+<img width="800" height="526" alt="image" src="https://github.com/user-attachments/assets/dc984986-34ac-48bd-9325-d8d854792ee3" />
+
+
+<h4>BTOP</h4>
+
+Versió moderna d'HTOP amb una interficie acolorida:
+
+<img width="795" height="518" alt="image" src="https://github.com/user-attachments/assets/aa71d608-dd9c-43cd-919a-aa119516d054" />
+
+<h4>PS AUX</h4>
+
+PS AUX el que fa és veure tots els processos que s'estan executant al sistema, de manera detallada, com podem veure a la captura n'hi han molts:
+
+<img width="935" height="975" alt="image" src="https://github.com/user-attachments/assets/0704e8c7-8e65-4e0c-9ee9-51aa50933a22" />
+
+<h4>KILL</h4>
+
+Kill serveix per enviar senyals a processos, no només matar-lo (com el nom indica) sino també suspendre'l. Cada procés té un identificador únic, anomenat PID. Aquest PID per procés ho podem veure amb les comandes mostrades anteriorment (ps aux, htop, btop, etc...) i la comanda per a matar o suspendre un procés seria kill opció i la PID. És a dir, senyal, número, efecte. 
+
+Respecte als números, el número 15 demana al procés que es tanqui de manera neta, el número 9 mata inmediatament el procés, el número 19 suspén el procés, i el número 18 torna a activar un procés que prèviament s'havia suspés:
+
+Exemple:
+<img width="1812" height="939" alt="image" src="https://github.com/user-attachments/assets/7a99de26-7fd0-4db7-bb3a-28b8b8ef672b" />
+
+Si escribim kill -9 seguit de la PDI de firefox (en aquest cas era 6589) veurem que s'ha tancat el Firefox.
+
+<img width="1516" height="816" alt="image" src="https://github.com/user-attachments/assets/9f0f1899-65fe-4d91-88f5-725fa4db5fe9" />
+
+
+
+
+
+
+
+
+
+
 
 
 
