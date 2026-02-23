@@ -49,3 +49,23 @@ FAT32 (File Allocation Table 32): Un sistema antic, però encara utilitzat per l
 
 
 
+<h4>Baix Nivell</h4>
+
+Aquest procés realitza una neteja total del disc.</p>
+Borra sistema de fitxers, borra formateig, etc, eliminant totes les dades i totes les estructures lògiques prèvies. El disc queda en un estat de fàbrica, "com a nou", sense cap mena d'organització lògica (sense particions ni sistemes de fitxers).
+
+IMPORTANT: No es pot fer des del sistema operatiu (SO) operatiu normal. Requereix programes adients i especialitzats, ja que treballa directament amb el firmware del disc dur.
+
+<h4>Mig Nivell</h4>
+
+S'hi centra en la capa lògica i la integritat del disc.</p>
+Només borra el sistema de fitxers (igual que el format d'Alt Nivell Ràpid), deixant les dades antigues presents però irrellevants per al SO. La funció distintiva és la comprovació de la integritat: si hi ha sectors defectuosos, els marca per evitar que el sistema operatiu els utilitzi en el futur.
+
+<h4>Alt Nivell</h4>
+
+Aquesta és l'operació més comuna i ràpida.
+Només borra el sistema de fitxers. El disc es prepara amb la creació del sistema de fitxers nou (p. ex., ext4 o NTFS) i el directori arrel. El contingut de les dades antigues roman al disc fins que es sobreescriu, cosa que permet la seva recuperació.
+
+
+
+
