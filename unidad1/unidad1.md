@@ -96,6 +96,70 @@ Quan s’instal·la Windows després d’Ubuntu, el seu instal·lador sobreescri
   <img width="754" height="478" alt="image" src="https://github.com/user-attachments/assets/5a04345c-35f9-4e7b-8048-ff92ebff62a2" />
 
 
+  El següent pas a fer és actualitzar el GRUB mitjançant la comanda "sudo update-grub":
+
+  <img width="825" height="233" alt="image" src="https://github.com/user-attachments/assets/03425b62-a177-44be-867a-bd9b45f72c71" />
+
+  
+
+  #  Punts de restauració
+
+Amb Fdisk crearem la particio amb la opcio n (afegeix una nova partico) unica de 15GB
+
+<img width="832" height="405" alt="image" src="https://github.com/user-attachments/assets/4d5717d8-925c-41ba-9445-65435c6ba8fc" />
+
+Li donem format a la partició que anteriorment hem fet:
+
+<img width="749" height="251" alt="image" src="https://github.com/user-attachments/assets/4566b891-d077-49e0-8255-a8a259853c20" />
+
+
+Posteriorment instal·larem el programa Timeshift
+
+<img width="633" height="96" alt="image" src="https://github.com/user-attachments/assets/353d5cda-7b25-4c2f-8ddb-0695f5493f59" />
+
+IMPORTANT escollir el tipus d'instantanea que volem fer (RSYNC):
+
+<img width="597" height="184" alt="image" src="https://github.com/user-attachments/assets/075fbdf2-f4d0-4ece-b6e7-64537d3adbd6" />
+
+
+Hem d'escollir també la ubicació de la instantànea de la partició que hem fet:
+
+
+<img width="573" height="35" alt="image" src="https://github.com/user-attachments/assets/3d6fb2e6-3038-45dd-b3d5-f3f3e0dfa2fd" />
+
+
+Aqui escollim el temps que volem per a que cada instantanea es completi:
+
+<img width="575" height="367" alt="image" src="https://github.com/user-attachments/assets/4f0208c6-3813-462a-9aef-8bf5adba8c42" />
+
+Després seleccionem la carpeta (root no):
+
+
+<img width="809" height="210" alt="image" src="https://github.com/user-attachments/assets/59c46491-de0d-4108-8231-427465047eda" />
+
+
+Configurem una instantànea:
+
+
+<img width="795" height="335" alt="image" src="https://github.com/user-attachments/assets/5940968a-f826-4f1b-a591-a7dd0ded1403" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
