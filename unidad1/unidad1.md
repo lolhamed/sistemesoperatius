@@ -1,4 +1,4 @@
-Virtualizacio i instalacio del SO Ubuntu
+## Virtualizacio i instalacio del SO Ubuntu
 
 
 Primer de tot selecionarem la memoria ram de la maquina virtual el minim son 4 GB i com a el ordinador host de 32GB introduirem 8GB despres com sera dual introduirem 80 GB de disc 40 GB per a ubuntu i 40 GB per a windows el minim de ubuntu son 25 GB i a la xarxa selecionarem xarxa NAT la diferencia amb el NAT es que els dos poden accedir a internet pero la xarxa nat poden veures varies maquines entre si la maquina anfitrió fa de router
@@ -142,6 +142,14 @@ Configurem una instantànea:
 
 
 <img width="795" height="335" alt="image" src="https://github.com/user-attachments/assets/5940968a-f826-4f1b-a591-a7dd0ded1403" />
+
+# Configuracio de la xarxa 
+
+Per a modificar la xarxa hem de canviar la IP i la màscara a l'arxiu hem de canviar un arxiu en especific, que és /etc/netplan/01-network-manager-all.yaml
+
+
+<img width="715" height="340" alt="image" src="https://github.com/user-attachments/assets/333214e7-5bc6-4861-8ebe-03f59ee1b27c" />
+
 
 
 
