@@ -208,6 +208,18 @@ Modificar i eliminar un grup:
 
 <img width="678" height="334" alt="image" src="https://github.com/user-attachments/assets/c46f8b85-ed84-46a2-a801-cd73460fc005" />
 
+Afegir un usuari a un grup:
+
+<img width="589" height="62" alt="image" src="https://github.com/user-attachments/assets/14ab7220-9291-4065-81d2-410d1516b0d1" />
+
+Afegir usuari admin a un grup:
+
+<img width="509" height="48" alt="image" src="https://github.com/user-attachments/assets/d7fbf818-5002-4e0a-b439-80735cc82b50" />
+
+
+
+
+
 
 
 
