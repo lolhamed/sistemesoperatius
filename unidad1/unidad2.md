@@ -453,6 +453,37 @@ Al cap de 5 minuts tenim la cópia:
 
 <p>Una cuota de disc es la llimitacio que es dona als usuaris de espai de el disc</p>
 
+Muntem una partició:
+
+<img width="729" height="229" alt="image" src="https://github.com/user-attachments/assets/e3358dca-b3a7-4299-a051-0003cb26bd14" />
+
+
+Instal·larem quota, que serveix per controlar l'us d'espai al disc i entrarem a el arxiu /etc/fstab que serveix per a que la particio es munti automaticament quan inici el sistema i tambe es afegix que el usuari i el grup tinguin una cuota:
+
+<img width="725" height="200" alt="image" src="https://github.com/user-attachments/assets/1033a35f-625c-4a51-bbab-5af76d50dd01" />
+
+
+Fem una comprovació:
+
+<img width="713" height="181" alt="image" src="https://github.com/user-attachments/assets/0f8643b9-8140-4d14-a307-83932d8ff305" />
+
+Creem un usuari per a fer proves, i podem apagar o engegar la quota:
+
+<img width="378" height="58" alt="image" src="https://github.com/user-attachments/assets/c351df09-f863-4ffb-a4d4-17809aa23a88" />
+
+
+Aquesta secció controla quants dades pot guardar l'usuari. En Linux, els valors de les quotes solen expressar-se en blocs d'1 KB.
+
+bloques (0): És l'espai que l'usuari està utilitzant actualment. En aquest cas, 0 KB, el que indica que encara no ha guardat res.
+
+blando (1024): És el límit suau (soft limit). L'usuari pot arribar a 1 MB (1024 KB). Si el supera, rebrà un avís, però se li permetrà seguir escrivint durant un "període de gràcia" (normalment 7 dies).
+
+duro (2048): És el límit dur (hard limit). L'usuari té prohibit passar de 2 MB (2048 KB). El sistema bloquejarà qualsevol intent d'escriure més dades un cop arribi a aquest valor.
+
+<img width="756" height="115" alt="image" src="https://github.com/user-attachments/assets/338b6d6e-8112-4f71-882a-9f81bf1efde4" />
+
+
+
 
 
 
