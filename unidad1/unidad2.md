@@ -404,6 +404,59 @@ Ara modificarem el arxiu login.defs i canviarem la mascara de 22 a 33:
 <p><b>DD</b> no es una eina per a copiar pero cuan volem copiar tot un disc o particio se utilizar es per a clonar</p> 
 
 
+CP
+
+<img width="777" height="466" alt="image" src="https://github.com/user-attachments/assets/2affcfce-4e3a-41e0-bbbd-93ff9a2dbef3" />
+
+
+
+RSYNC
+
+<img width="807" height="241" alt="image" src="https://github.com/user-attachments/assets/909eecd2-445b-4e00-b683-0c4ab40d85d8" />
+
+
+<h3>5.Teoria de automatizacio scripts, cron i anacron</h3>
+<p>Cron i anacron son dues eines de automatizacio per a exectutar tasques periodiques son a traves de scripts</p>  
+
+<p><b>Cron</b> Executa tasquesprogramades en una data i una hora especifiques si el sistema esta apagat la tasca es perd es ideal per a tasces en dates i hores conquretes i per a accions especifiques de un usuari</p> 
+
+<p><b>Anacron</b> es ideal per a executar tasques periodices on no cal una data i una hora especifica normalment se utiliza per a tasques de el manteniment de el sistema no requereix que el sistema estigui obert perque cuan se obrigue ja la executara no es perd la tasca com en el Cron</p> 
+
+
+1.Cron
+Primer crearem el script indicant que timestap es la data actual i la hora i vaix introduirem un tar que creara el arxiu copies_ladataactual.tar.gz i el arxiu contindra tot el que hi hagi a la carpeta
+
+<img width="728" height="129" alt="image" src="https://github.com/user-attachments/assets/7987d3c9-019d-48c1-bc1e-b6968a917719" />
+
+Despres fem un nano /etc/crontab i afegirem el script creat anteriorment que fara una copia de tot el que hi hagui a la carpeta imagenes i el guardara amb un arxiu al escriptori:
+
+<img width="753" height="470" alt="image" src="https://github.com/user-attachments/assets/c0d0e3bd-5d44-4056-bbdd-cdc6c45d1386" />
+
+
+Fet.
+
+<img width="436" height="195" alt="image" src="https://github.com/user-attachments/assets/60135ea4-b12c-425f-82f2-d9dc7be7090f" />
+
+
+
+2.anacron
+Utilizarem el mateix script que a cron i entrarem a nano /etc/anacrontab primer de tot introduirem cada quan es produira la copia que sera cada dia i cuan tardara a fer-la desde que se inicia el ordinador que seran 5 minuts el nom de la tasca i on volem que es realizi la copia que sera a el home de alumne
+
+<img width="763" height="498" alt="image" src="https://github.com/user-attachments/assets/78bae01e-02df-40f3-8abf-472141374a4d" />
+
+
+Al cap de 5 minuts tenim la cópia:
+
+<img width="193" height="91" alt="image" src="https://github.com/user-attachments/assets/40b016cb-6fc2-4613-98aa-b91ef7108a15" />
+
+<h2>5. Quotes d'usuari</h2>
+
+<p>Una cuota de disc es la llimitacio que es dona als usuaris de espai de el disc</p>
+
+
+
+
+
 
 
 
