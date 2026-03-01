@@ -272,6 +272,115 @@ Creem un usuari, comprovem el id i que estigui al bash:
 <img width="399" height="24" alt="image" src="https://github.com/user-attachments/assets/f80cdb19-267f-4264-84c6-16a591e11471" />
 
 
+Fem canvis a .profile, de tal manera que els usuaris accedeixen, estiguin situats al directori /var:
+
+<img width="710" height="520" alt="image" src="https://github.com/user-attachments/assets/36aed3cd-bb65-4738-9e4d-d3fb66e6e4df" />
+
+
+Posteriorment, a l'arxiu .bashrc afegim un alias:
+
+<img width="715" height="255" alt="image" src="https://github.com/user-attachments/assets/2aa36f15-4d7e-4bcb-9ee7-93d2a5830309" />
+
+El següent que hem de fer és entrar a l'arxiu bash_logout i afegim un script en cas que l'usuari tanqui sessió, el seu directori personal s'elimini:
+
+<img width="718" height="202" alt="image" src="https://github.com/user-attachments/assets/7e783ccb-2f79-4ea1-b68e-f9d2a2b6ed65" />
+
+
+<h4>Gestió de permisos</h4>
+
+Primer de tot crearem la carpeta palomes i el grup palomes i afegirem a el usuari nick com a propietari amb chown -R tambe assignarem paloma com a grup de la carpeta:
+
+
+<img width="706" height="331" alt="image" src="https://github.com/user-attachments/assets/a5ece052-3d65-4ca9-93c7-5879d770efbe" />
+
+
+<img width="724" height="263" alt="image" src="https://github.com/user-attachments/assets/8029978b-0655-4919-86fc-d833a805bd83" />
+
+Després modificarem els permisos de la carpeta amb chmod 750 que significa permisos totals per a l'usuari, permisos de lectura i execució per al grup i no permisos per als altres:
+
+<img width="606" height="84" alt="image" src="https://github.com/user-attachments/assets/0177b258-26f9-4c4c-8ee6-9c36efd4680a" />
+
+Posteriorment amb chmod o+r donarem permisos als altres per a lectura i en chmod o-r treurem el permis de lectura als altres i amb ls -l | grep palomes veurem els permisos sol de la carpeta palomes:
+
+<img width="626" height="157" alt="image" src="https://github.com/user-attachments/assets/e635eca4-aa73-4ac9-b4eb-c077a508060b" />
+
+
+Ara comprovarem els permisos primer amb el usuari nick que podrar entrar a la carpeta crear el arxiu sdfsdf i escriure dins despues pasarem a el usuari cire podra entrar dints de la carpeta pero no podra crear cap arxiu i despues provarem amb l'usuari ferran que no podrar entrar dints de la carpeta perque nick es el propietari i té permisos totals cire es un usuari de el gurp paloma i ferran es altres que no tenen cap permís:
+
+
+
+<h4>ACL</h4>
+
+Creem la carpeta proves i l'arxiu proves 2:
+
+<img width="417" height="65" alt="image" src="https://github.com/user-attachments/assets/eed20de9-c0e1-46ba-8729-ce8a2425b988" />
+
+
+Comprovarem els permisos per defecte que són:
+
+proves:755 (rwxr-xr-x): El propietari té tots els permisos (7), i el grup i els altres només poden llegir i executar/accedir (5).
+
+proves2: 644 (rw-r--r--): El propietari pot llegir i escriure (6), i el grup i els altres només poden llegir (4).
+
+
+<img width="582" height="92" alt="image" src="https://github.com/user-attachments/assets/29862780-de18-4f98-b11b-63b72494fa2e" />
+
+
+Ara canviarem els permisos i els comprovarem en getfacl que mostra la llista de control d’accessos (ACL):
+
+<img width="587" height="296" alt="image" src="https://github.com/user-attachments/assets/3c47a3d5-05db-4e1e-b1cb-c67593f3b13c" />
+
+
+Amb setfacl, atorgant a l'usuari específic roig permisos addicionals de Lectura i Escriptura (rw-) sobre el fitxer proves2, sense modificar els permisos estàndards del grup o d'altres.
+
+<img width="196" height="148" alt="image" src="https://github.com/user-attachments/assets/a04a20b4-59c3-4c3f-ba1d-dec59926134d" />
+
+
+Si entro a l'arxiu com usuari roig el puc modificar:
+
+<img width="725" height="418" alt="image" src="https://github.com/user-attachments/assets/b079927c-36ff-49a3-b675-ea2004285702" />
+
+Pero si entro com a usuari blau no perque aquest no té permisos:
+
+<img width="725" height="122" alt="image" src="https://github.com/user-attachments/assets/2a42e7ed-6687-40d5-887a-2ee519f194d8" />
+
+
+Per suposat, podem borrar les ALC amb una comanda específica, setfacl -b proves2:
+
+<img width="149" height="124" alt="image" src="https://github.com/user-attachments/assets/cda1152a-5bff-4b9c-a52e-d994ec2d5a11" />
+
+
+<h4>Màscara</h4>
+
+Amb la comanda umask podem veure la màscara:
+
+<img width="246" height="45" alt="image" src="https://github.com/user-attachments/assets/7be414ff-fc0b-4439-a042-88fc55e1735e" />
+
+
+Si som root, aquesta comanda canvia:
+
+<img width="358" height="111" alt="image" src="https://github.com/user-attachments/assets/ab262f95-4470-496a-ae89-50e00d439f33" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
