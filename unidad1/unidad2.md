@@ -1,4 +1,4 @@
-<img width="708" height="535" alt="image" src="https://github.com/user-attachments/assets/c1933c49-e8c7-43a0-be27-b163cc994175" />## Sprint 2
+
 
 # Sistema de fitxers i particions
 
