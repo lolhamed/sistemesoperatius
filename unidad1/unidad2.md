@@ -217,6 +217,39 @@ Afegir usuari admin a un grup:
 <img width="509" height="48" alt="image" src="https://github.com/user-attachments/assets/d7fbf818-5002-4e0a-b439-80735cc82b50" />
 
 
+Farem un experiment i crearem els usuaris roig, blau, groc i verd:
+
+<img width="398" height="72" alt="image" src="https://github.com/user-attachments/assets/2b75cb64-a89a-41d3-a529-4b1dcdece3ba" />
+
+
+Creem el grup dames:
+
+<img width="395" height="39" alt="image" src="https://github.com/user-attachments/assets/8c16dbe6-83db-405b-a20f-aeb1099bf1d6" />
+
+Cambiem el nom del grup:
+
+<img width="237" height="46" alt="image" src="https://github.com/user-attachments/assets/5f94a65c-8934-4756-bfba-5cd95eaf2f89" />
+
+Afegim a groc i roig com a grup principal al grup de parchis:
+
+<img width="368" height="37" alt="image" src="https://github.com/user-attachments/assets/658ce1f1-f91c-49e7-be00-34c95df33aef" />
+
+
+I si provem d'eliminar el grup parchis no podrem ja que té un usuari principal.
+
+
+Despres entrarem a cd /etc/skel i veurem que tenim varios arxius mos centrarem en 3 de ells .bash_logout,bashrc i .profile:
+
+![Uploading image.png…]()
+
+
+
+
+
+
+
+
+
 
 
 
