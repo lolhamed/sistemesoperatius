@@ -240,7 +240,45 @@ I si provem d'eliminar el grup parchis no podrem ja que té un usuari principal.
 
 Despres entrarem a cd /etc/skel i veurem que tenim varios arxius mos centrarem en 3 de ells .bash_logout,bashrc i .profile:
 
-![Uploading image.png…]()
+<img width="523" height="91" alt="image" src="https://github.com/user-attachments/assets/03a100e6-2dfd-48c6-976b-830d8b9d588e" />
+
+
+Ara entrarem a l'arxiu adduser.conf que son els parametres de la comanda adduser que serveix per crear usuaris introduirem que la Shell la volem en bash i que la carpeta home la volem a /var:
+
+<img width="623" height="189" alt="image" src="https://github.com/user-attachments/assets/19efe0d0-2c59-40ea-962d-69e2fa8c1ea6" />
+
+A partir de 3000 crearà ID dels usuaris.
+
+<img width="747" height="522" alt="image" src="https://github.com/user-attachments/assets/16e45a69-faef-4386-95a6-a34081577822" />
+
+Despres obrim l'arxiu login.defs que modifica es regles generals del sistema per a: contrasenyes creació d’usuaris permisos comportament del login
+
+Introduirem que la contrasenya tingui un maxim de 20 dies i un minim de 15 dies amb avís als 3 dies
+
+<img width="726" height="192" alt="image" src="https://github.com/user-attachments/assets/a8da16c6-c049-4470-b6c6-877bf7bdf3f3" />
+
+
+Creem un usuari de prova per a comprovar que els canvis s'han realitzat:
+
+<img width="659" height="311" alt="image" src="https://github.com/user-attachments/assets/585002c8-8d54-4a3f-911a-f6b8e74ea864" />
+
+
+Ara modificarem el useradd i canviarem el shell a bash:
+
+<img width="912" height="329" alt="image" src="https://github.com/user-attachments/assets/7267aff6-4a4e-42d9-8fdc-2e70749720b0" />
+
+Creem un usuari, comprovem el id i que estigui al bash:
+
+<img width="399" height="24" alt="image" src="https://github.com/user-attachments/assets/f80cdb19-267f-4264-84c6-16a591e11471" />
+
+
+
+
+
+
+
+
+
 
 
 
