@@ -1,4 +1,4 @@
-## Sprint 2
+<img width="708" height="535" alt="image" src="https://github.com/user-attachments/assets/c1933c49-e8c7-43a0-be27-b163cc994175" />## Sprint 2
 
 # Sistema de fitxers i particions
 
@@ -360,6 +360,53 @@ Amb la comanda umask podem veure la màscara:
 Si som root, aquesta comanda canvia:
 
 <img width="358" height="111" alt="image" src="https://github.com/user-attachments/assets/ab262f95-4470-496a-ae89-50e00d439f33" />
+
+
+Després entrarem a el arxiu login.defs que defineix els paràmetres globals de els usuaris i podrem modificar la mascara de els usuaris que es creein despres de la modificació:
+
+
+<img width="743" height="627" alt="image" src="https://github.com/user-attachments/assets/61affd4a-1c25-4ff8-8666-18fa905b49d5" />
+
+
+Per a canviar la màscara del usuari actual entrarem a el arxiu .profile i canviarem la màscara:
+
+<img width="708" height="535" alt="image" src="https://github.com/user-attachments/assets/ab92c6c8-22da-4a97-b4ca-765acf69d72b" />
+
+
+Ara modificarem el arxiu login.defs i canviarem la mascara de 22 a 33:
+
+<img width="724" height="289" alt="image" src="https://github.com/user-attachments/assets/59870dfc-ad2b-4241-b24f-e7664ed3d055" />
+
+<h2>4. Còpies de seguretat i automatització de tasques</h2>
+
+<h3>1.Teoria copies de seguretat</h3>
+
+<p>Una còpia de seguretat és una còpia de les dades importants per poder recuperar-les en cas de pèrdua, corrupció o fallada del sistema.</p> 
+
+<p>Hi ha tres tipus principals:</p> 
+
+<p>Completa: copia totes les dades seleccionades i només necessita ella mateixa per recuperar-se.</p> 
+
+<p>Diferencial: copia només les dades que han canviat des de l’última còpia completa i necessita aquesta còpia completa per poder restaurar les dades.</p> 
+
+<p>Incremental: copia només les dades que han canviat des de l’última còpia, sigui completa o incremental, i necessita aquesta última còpia (completa o incremental) per poder recuperar tota la informació.</p> 
+
+<p>En resum, la còpia completa és la base, la diferencial depèn de la completa i l’incremental depèn de l’última còpia feta.</p>  
+
+
+
+<h3>2.Teoria commandes Backups</h3>
+
+<p><b>CP</b> es una copia simple que no es inteligent transfereix arxius nomes localment i no optimiza ni temps ni espai</p> 
+
+<p><b>RSYNC</b> es una eina inteligent que nomes copia els fitxers modificats treballa en local i en remot</p> 
+
+<p><b>DD</b> no es una eina per a copiar pero cuan volem copiar tot un disc o particio se utilizar es per a clonar</p> 
+
+
+
+
+
 
 
 
