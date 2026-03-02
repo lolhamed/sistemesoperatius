@@ -5,6 +5,33 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1200" height="748" alt="image" src="https://github.com/user-attachments/assets/a6a780ae-bfef-4293-95b4-f82adc0e9387" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p>1. Usuaris, Grups i Recursos
 Són els objectes bàsics que conté el directori:
 Usuaris: Comptes individuals per a persones (com el meu usuari ferranbernis).
