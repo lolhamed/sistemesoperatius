@@ -315,6 +315,47 @@ Reiniciem el server i veurem que està actiu:
 
 
 
+Entrarem a el arxiu /etc/fstab i copiarem la linea de la carpeta 1exercici i la pegarem canviarem el nom de les carpetes a les corresponents al servidor i al client que es /homes al servidor i /homes al client:
+
+
+<img width="787" height="279" alt="image" src="https://github.com/user-attachments/assets/39eaf0cc-20f9-4f2b-9509-29f2dd3168de" />
+
+
+Anirem a el Servidor i crearem el usuari marcel a el LDAP introduint que la carpeta home seria /homes/marcel que son les carpetes compartides:
+
+
+
+<img width="780" height="379" alt="image" src="https://github.com/user-attachments/assets/42a4d858-4d3f-45eb-8394-da3fab6ddb6d" />
+
+
+<h3>NFS AMB WINDOWS</h3>
+
+<p>Primer anirem a programes i caracteristiques i instalarem el paquet client per a NFS</p> 
+
+
+Anem a programes i característiques i instal·lem el paquet:
+
+
+<img width="621" height="428" alt="image" src="https://github.com/user-attachments/assets/c0cf7526-ec36-43db-9ab2-6f36b9e7a4c2" />
+
+
+Després obrirem una terminal de powershell i intoduirem mount.exe per a montar la ip de el servidor la ruta de la carpeta al servidor i per últim el punt de muntatge:
+
+
+<img width="421" height="87" alt="image" src="https://github.com/user-attachments/assets/38845d18-5e01-45d3-8eb2-e6cbf53d20e2" />
+
+
+I ja ho tindriem:
+
+
+<img width="435" height="176" alt="image" src="https://github.com/user-attachments/assets/4245a3f3-a34b-4f36-8f5c-c43b00b43700" />
+
+
+
+
+
+
+
 
 
 
