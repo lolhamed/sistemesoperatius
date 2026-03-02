@@ -265,7 +265,60 @@ Pero en guest si que funciona (configurat prèviament):
 
 <h2>Servidor NFS</h2>
 
-<p>NFS es un protcol que permet compartir fitxers directoris (no impresores) amb linux a traves de una xarxa local la autentificació es fa a nivell de host no de usuari, a diferencia de samba i poden accedir tant clients windows com linux</p>  
+<p>NFS es un protocol que permet compartir fitxers directoris (no impresores) amb linux a traves de una xarxa local la autentificació es fa a nivell de host no de usuari, a diferencia de samba i poden accedir tant clients windows com linux</p> 
+
+
+
+
+
+
+
+
+
+<h3>NFS SENSE LDAP</h3>
+
+<p>Primer de tot instalarem el paquet nfs-kernel server (Servidor NFS)</p> 
+
+
+<img width="563" height="185" alt="image" src="https://github.com/user-attachments/assets/e3e0e76e-6ac2-4b8b-8e2a-b06da6de33a4" />
+
+
+
+
+Ara crearem la carpeta 1exercici donarem privilegis totals a tohom amb chmod 777 i canviarem el propietari a ningú i el grup també amb chown nobody:nogroup i comprovarem els permisos i el propietari amb ls -l i filtrarem per el 1 i veurem que tindrà tots els permisos correctes:
+
+
+
+<img width="741" height="549" alt="image" src="https://github.com/user-attachments/assets/8ccecc5f-4c77-41a1-8dea-55daa76ea920" />
+
+
+
+Després, entrem a l'arxiu export i el modificarem:
+
+
+<img width="809" height="235" alt="image" src="https://github.com/user-attachments/assets/5252b04a-b6d9-4aa7-892f-fb28a93e0d0f" />
+
+
+Reiniciem el server i veurem que està actiu:
+
+
+<img width="814" height="132" alt="image" src="https://github.com/user-attachments/assets/9bc4be87-3ea7-4aaa-b51e-4922a8d0b4ce" />
+
+
+<h3>NFS AMB LDAP</h3>
+
+
+<p>Al servidor crearem la carpeta homes i donerem privlegis totals a tohom amb chmod 777 i canviarem el propietari a ningu i el grup tambe amb chown nobody:nogroup i crearem la carpeta marcel tambe donarem privlegis totals a tohom i després Copiarem i pegarem la linea de la carpeta 1exercici baix i canviarem el nom a homes</p>
+
+
+<img width="804" height="241" alt="image" src="https://github.com/user-attachments/assets/b367f479-1082-4d45-9324-d396921ec33c" />
+
+
+
+
+
+
+
 
 
 
