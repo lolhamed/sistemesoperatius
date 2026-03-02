@@ -34,12 +34,12 @@
 
 <p>1. Usuaris, Grups i Recursos
 Són els objectes bàsics que conté el directori:
-Usuaris: Comptes individuals per a persones (com el meu usuari ferranbernis).
-Grups: Conjunts d'usuaris (ex: grup "professors", grup "alumnes") per gestionar permisos de cop.
-Recursos: Impressores, carpetes compartides o servidors que estan registrats a la xarxa.</p>
+Usuaris: comptes individuals per a persones (com el meu usuari ferranbernis).
+Grups: conjunts d'usuaris (ex: grup "professors", grup "alumnes") per gestionar permisos de cop.
+Recursos: impressores, carpetes compartides o servidors que estan registrats a la xarxa.</p>
 
 <p>2. Unitats Organitzatives (OU)
-Pensa en les OU com a carpetes o contenidors dins del servidor. Serveixen per organitzar els objectes segons la lògica de l'empresa o centre:
+Carpetes o contenidors dins del servidor. Serveixen per organitzar els objectes segons la lògica de l'empresa o centre:
 Exemple: Una OU anomenada Sistemes i una altra Administració.
 Permeten aplicar polítiques (GPOs) diferents a cada grup.</p>
 
