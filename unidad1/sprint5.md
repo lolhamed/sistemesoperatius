@@ -256,6 +256,10 @@ I després tornem a fer la instal·lació de Google Chrome:
 
 
 
+He fet el mateix amb Microsoft Edge:
+
+
+<img width="885" height="601" alt="image" src="https://github.com/user-attachments/assets/ab70e81e-569f-4b95-8679-2716f408f65d" />
 
 
 
