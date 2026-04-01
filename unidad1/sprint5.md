@@ -137,6 +137,34 @@ En aquesta secció es mostra informació sobre els **discos i particions del sis
 
 
 
+# Servidor d'Actualitzacions
+
+
+Aquesta documentació explica com configurar un servidor local d'actualitzacions amb `apt-mirror` i Apache, i com configurar un client per obtenir paquets des d’aquest servidor.
+
+---
+
+## 1. Obrir el servidor
+
+Accedim com a root i actualitzem els repositoris:
+
+
+<img width="1268" height="632" alt="image" src="https://github.com/user-attachments/assets/52d0f9fa-2fee-4c33-84ca-ee2539135623" />
+
+
+Instal·lem Apache2:
+
+
+<img width="724" height="285" alt="image" src="https://github.com/user-attachments/assets/683e9221-2ee4-414f-908c-e0644e36b967" />
+
+
+
+
+
+
+
+
+
 
 
 
