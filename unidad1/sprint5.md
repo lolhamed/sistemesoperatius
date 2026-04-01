@@ -62,6 +62,8 @@ Antigament, tota la configuració es trobava a `/etc/rsyslog.conf`. Actualment, 
 Per veure els canvis en directe mentre fem proves, executem en una terminal:
 `tail -f /var/log/syslog`
 
+1. Kern.notice
+
 <img width="1740" height="733" alt="image" src="https://github.com/user-attachments/assets/221f5af6-be87-4f04-b352-dc88eac87426" />
 
 
