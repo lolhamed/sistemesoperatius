@@ -158,6 +158,100 @@ Instal·lem Apache2:
 <img width="724" height="285" alt="image" src="https://github.com/user-attachments/assets/683e9221-2ee4-414f-908c-e0644e36b967" />
 
 
+Instal·lem apt mirror:
+
+
+<img width="668" height="111" alt="image" src="https://github.com/user-attachments/assets/4167c22f-11aa-4c18-bb36-f2243d87264d" />
+
+
+## 2. Configurar `apt-mirror`
+
+Editem la configuració:
+
+```
+nano /etc/apt/mirror.list
+```
+
+* Afegim tots els repositoris que volem descarregar al servidor local.
+* D’aquesta manera, els clients no hauran de descarregar els paquets d’internet.
+* Per a la prova, comentem tots els altres repositoris i afegim només el de Google Chrome.
+
+
+
+Executem la descàrrega dels paquets:
+
+
+
+<img width="668" height="111" alt="image" src="https://github.com/user-attachments/assets/da941787-e804-4650-b3f7-9f6c2e335e83" />
+
+
+
+## 2. Configurar `apt-mirror`
+
+Editem la configuració:
+
+```
+nano /etc/apt/mirror.list
+```
+
+* Afegim tots els repositoris que volem descarregar al servidor local.
+* D’aquesta manera, els clients no hauran de descarregar els paquets d’internet.
+* Per a la prova, comentem tots els altres repositoris i afegim només el de Google Chrome.
+
+
+<img width="857" height="635" alt="image" src="https://github.com/user-attachments/assets/b455ec89-9e73-4c1e-8871-51f846ed32d1" />
+
+
+
+
+Fem apt-mirror un altre cop:
+
+
+
+<img width="537" height="661" alt="image" src="https://github.com/user-attachments/assets/72099506-c6cf-4a38-9051-1a28b94000ce" />
+
+
+## 3. Configurar Apache
+
+Creem un **softlink** per servir els paquets amb Apache:
+
+```
+ln -s /var/spool/apt-mirror/mirror/deb.opera.com/opera-stable /var/www/html/
+```
+
+Comprovem la ip del server:
+
+
+<img width="671" height="65" alt="image" src="https://github.com/user-attachments/assets/e4ab49f2-cf36-4715-af62-253da5a74781" />
+
+
+## 4. Configurar el client
+
+Obrim el fitxer de repositoris del client:
+
+```
+nano /etc/apt/sources.list
+```
+
+
+
+
+
+No té signatura, per tant, la importem: 
+
+
+<img width="868" height="50" alt="image" src="https://github.com/user-attachments/assets/d418a0e2-2f7b-4514-ae6b-7abd3be966db" />
+
+
+
+
+<img width="1171" height="30" alt="image" src="https://github.com/user-attachments/assets/46d88ba3-31b3-40ec-a0cb-e3896c2ab3d8" />
+
+
+I després tornem a fer la instal·lació de Google Chrome:
+
+
+<img width="857" height="112" alt="image" src="https://github.com/user-attachments/assets/2cf66ca9-0fe1-411e-9a18-c9a7a123d97c" />
 
 
 
