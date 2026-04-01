@@ -97,6 +97,52 @@ Per exemple, per veure només els logs de correu:
 
 
 
+---
+
+## TASCA 1: Rendiment
+
+Per observar el rendiment del sistema utilitzem el **Monitor del sistema d’Ubuntu**, una eina gràfica que permet veure informació sobre els processos actius, el consum de recursos i l’estat dels sistemes de fitxers.
+
+Aquesta eina és útil per supervisar el funcionament del sistema i detectar possibles problemes de rendiment.
+
+---
+
+### Pestanya 1: Processos
+
+En aquesta pestanya podem veure **tots els processos que s’estan executant al sistema**.  
+També mostra informació com el **PID, l’usuari, el percentatge de CPU i la memòria utilitzada** per cada procés.
+
+
+<img width="1782" height="931" alt="image" src="https://github.com/user-attachments/assets/5555e3ae-07fb-4add-91f3-fcfa4f9743b9" />
+
+
+
+### Pestanya 2: Recursos
+
+En aquesta pestanya es mostren **gràfiques del consum de recursos del sistema**, com l’ús de **CPU, memòria RAM, memòria swap i xarxa**.  
+Això permet veure l’activitat del sistema en temps real.
+
+
+
+<img width="1749" height="940" alt="image" src="https://github.com/user-attachments/assets/7cb52f27-b871-4392-9b79-38a4ae1ef5d7" />
+
+
+### Pestanya 3: Sistemes de fitxers
+
+En aquesta secció es mostra informació sobre els **discos i particions del sistema**, indicant l’**espai utilitzat i l’espai disponible** a cada sistema de fitxers.
+
+
+<img width="1785" height="200" alt="image" src="https://github.com/user-attachments/assets/b7e26922-421d-41a4-8e07-dfd93cedc8de" />
+
+
+
+
+
+
+
+
+
+
 
 
 
