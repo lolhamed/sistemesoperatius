@@ -67,5 +67,38 @@ Per veure els canvis en directe mentre fem proves, executem en una terminal:
 <img width="1740" height="733" alt="image" src="https://github.com/user-attachments/assets/221f5af6-be87-4f04-b352-dc88eac87426" />
 
 
+2. Mail.notice
+
+<img width="1580" height="566" alt="image" src="https://github.com/user-attachments/assets/bc9443ae-0e85-4b50-b3e1-21b5b949d0ed" />
+
+
+<img width="728" height="388" alt="image" src="https://github.com/user-attachments/assets/d2ee1515-6938-47bc-a235-a393e2127b49" />
+
+
+Prova 3: Fitxers de log personalitzats
+
+Podem redirigir logs a fitxers propis afegint una línia al fitxer `50-default.conf`. Per exemple, per enviar totes les alertes crítiques a un fitxer nou:
+`*crit -/var/log/pau.log`
+
+
+<img width="725" height="487" alt="image" src="https://github.com/user-attachments/assets/cf9b3bb7-0f42-4a72-9a66-c47ac042581f" />
+
+
+
+## 5. El sistema `journalctl`
+
+A més dels fitxers de text tradicionals, els sistemes moderns amb `systemd` utilitzen un log binari gestionat per `journalctl`. Això permet fer cerques molt més ràpides i filtrades.
+
+Per exemple, per veure només els logs de correu:
+`journalctl --facility=mail`
+
+
+<img width="614" height="63" alt="image" src="https://github.com/user-attachments/assets/13bf7c3d-98f5-4929-9d24-18e0df53ef59" />
+
+
+
+
+
+
 
 
