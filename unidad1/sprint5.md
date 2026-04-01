@@ -39,3 +39,28 @@ Per evitar que els fitxers de log omplin tot el disc dur, el sistema utilitza **
 
 La configuració es troba a `/etc/logrotate.d/`.
 
+<img width="512" height="160" alt="image" src="https://github.com/user-attachments/assets/8019a0ad-9f47-4b55-ac8e-e3796a561e5e" />
+
+
+Podem veure la configuració específica de `rsyslog` per entendre com gestiona els seus propis fitxers:
+
+<img width="593" height="113" alt="image" src="https://github.com/user-attachments/assets/e84d36eb-bbaa-4efe-9f1f-e01d6fc992ca" />
+
+Podem veure la configuració específica de `rsyslog` per entendre com gestiona els seus propis fitxers:
+
+<img width="654" height="492" alt="image" src="https://github.com/user-attachments/assets/b164868c-7b92-4853-8596-df15472fe0d3" />
+
+## 4. Configuració de `rsyslog`
+
+Antigament, tota la configuració es trobava a `/etc/rsyslog.conf`. Actualment, a les distribucions basades en Ubuntu/Debian, la configuració de les regles per defecte es troba a:
+`/etc/rsyslog.d/50-default.conf`
+
+<img width="736" height="484" alt="image" src="https://github.com/user-attachments/assets/11214c33-72d6-4cbc-8f5a-33e536744ef3" />
+
+### Proves de funcionament
+
+Per veure els canvis en directe mentre fem proves, executem en una terminal:
+`tail -f /var/log/syslog`
+
+
+
