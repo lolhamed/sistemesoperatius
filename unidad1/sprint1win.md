@@ -83,6 +83,18 @@ Al mateix menú fem click a restaurar sistema:
 <img width="410" height="234" alt="image" src="https://github.com/user-attachments/assets/05da9a72-7c15-471a-bcbc-2bc54f68393c" />
 
 
+Seleccionem la restauració que hem creat anteriorment:
 
 
+<img width="562" height="455" alt="image" src="https://github.com/user-attachments/assets/ad9c9798-6c30-4120-aaa7-48126b6b2969" />
 
+
+I fem click a si:
+
+
+<img width="520" height="192" alt="image" src="https://github.com/user-attachments/assets/7f669e96-d775-4582-ad95-18a9cdfbb83f" />
+
+
+La restauració esta en procés:
+
+<img width="994" height="702" alt="image" src="https://github.com/user-attachments/assets/54abfe99-f273-43bf-98e9-370d1e295dc0" />
