@@ -98,3 +98,12 @@ I fem click a si:
 La restauració esta en procés:
 
 <img width="994" height="702" alt="image" src="https://github.com/user-attachments/assets/54abfe99-f273-43bf-98e9-370d1e295dc0" />
+
+
+Després d'una estona, s'ha acabat de reiniciar i al entrar a la màquina m'ha sortit aquest missatge:
+
+<img width="1013" height="735" alt="image" src="https://github.com/user-attachments/assets/2fd6fad3-3dd8-41af-b823-c53a0f8d0396" />
+
+
+Com podem veure Google Chrome no està instal·lat, ja que és el canvi que hem fet després de configurar el punt de restauració
+
