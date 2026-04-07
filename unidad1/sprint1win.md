@@ -73,8 +73,14 @@ Fet!
 Ara farem un canvi i després farem una restauració, jo instal·laré Chrome:
 
 
+<img width="1005" height="560" alt="image" src="https://github.com/user-attachments/assets/aadea19d-e4b8-4af1-8bc2-fa5ded2fb424" />
 
 
+
+Al mateix menú fem click a restaurar sistema:
+
+
+<img width="410" height="234" alt="image" src="https://github.com/user-attachments/assets/05da9a72-7c15-471a-bcbc-2bc54f68393c" />
 
 
 
