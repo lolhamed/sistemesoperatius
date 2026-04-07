@@ -21,3 +21,10 @@ Començem amb la instal·lació de Windows:
 
 <img width="638" height="480" alt="image" src="https://github.com/user-attachments/assets/234b718d-7f63-44af-b2cf-a75590672002" />
 
+
+Com podem veure funciona la màquina:
+
+<img width="977" height="741" alt="image" src="https://github.com/user-attachments/assets/b09c0f43-7431-42b3-8ed8-79296ef9e1e8" />
+
+
+<H2>FASE 2. PUNTS DE RESTAURACIÓ:</H2>
