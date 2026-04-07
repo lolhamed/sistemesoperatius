@@ -1,7 +1,7 @@
 ## SPRINT 1 WINDOWS ##
 
 
-<H2>FASE 1</H2>
+<H2>FASE 1: INSTAL·LACIÓ DEL SISTEMA OPERATIU</H2>
 
 
 Creem una màquina virtual amb la ISO de Windows
@@ -16,3 +16,8 @@ Assignem recursos
 Editem el hostname:
 
 <img width="880" height="616" alt="image" src="https://github.com/user-attachments/assets/b9c9fe10-00ed-4b56-afb6-4a52facf8960" />
+
+Començem amb la instal·lació de Windows:
+
+<img width="638" height="480" alt="image" src="https://github.com/user-attachments/assets/234b718d-7f63-44af-b2cf-a75590672002" />
+
