@@ -26,5 +26,9 @@ Com podem veure funciona la màquina:
 
 <img width="977" height="741" alt="image" src="https://github.com/user-attachments/assets/b09c0f43-7431-42b3-8ed8-79296ef9e1e8" />
 
+<img width="1012" height="770" alt="image" src="https://github.com/user-attachments/assets/649346a3-c97d-429f-be93-4cf39c6b81ff" />
+
+
+
 
 <H2>FASE 2:PUNTS DE RESTAURACIÓ:</H2>
