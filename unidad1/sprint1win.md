@@ -107,3 +107,5 @@ Després d'una estona, s'ha acabat de reiniciar i al entrar a la màquina m'ha s
 
 Com podem veure Google Chrome no està instal·lat, ja que és el canvi que hem fet després de configurar el punt de restauració
 
+
+<h2>FASE 3:LLICÈNCIES DE WINDOWS</h2>
