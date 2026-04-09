@@ -325,6 +325,10 @@ Dades clau: Informació sobre la versió de Windows, el processador, la quantita
 <h2> FASE 7: INSTAL·LACIÓ D'APLICACIONS:</h2>
 
 
+En aquesta fase instal·laré opera, per tant aniré a la pàgina oficial i baixaré el .exe:
+
+<img width="926" height="280" alt="image" src="https://github.com/user-attachments/assets/42e38ffd-0817-4889-a0c6-b7fe1f8592a8" />
+
 
 
 
