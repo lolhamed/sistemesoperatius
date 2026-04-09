@@ -277,6 +277,51 @@ Amb hostname podem veure el nom del host:
 <img width="250" height="80" alt="image" src="https://github.com/user-attachments/assets/dd2e2930-83ad-4a3f-8699-01ab7a896cd7" />
 
 
+whoami ens permet veure l'usuari actual:
+
+<img width="227" height="114" alt="image" src="https://github.com/user-attachments/assets/17dbd13b-8dcf-4812-ac7c-106615ed4c8a" />
+
+
+Amb netstat -an podem veure les connexions obertes:
+
+<img width="750" height="646" alt="image" src="https://github.com/user-attachments/assets/cd45530f-2b44-4fa9-a635-2cddffff50b2" />
+
+
+tree ens permet veure l'estructura de carpetes:
+
+<img width="421" height="471" alt="image" src="https://github.com/user-attachments/assets/ca45ae74-05c4-40e3-b146-0bf6af596ce0" />
+
+
+cls és el equvalent a clear a Ubuntu:
+
+<img width="803" height="474" alt="image" src="https://github.com/user-attachments/assets/08bb3a5d-8944-46f4-a2c4-ac2f39b70bf3" />
+
+
+amb help podem veure les comandes que podem usar:
+
+<img width="763" height="396" alt="image" src="https://github.com/user-attachments/assets/f0f6147b-eab2-4bd2-9b19-786f6b7eabf9" />
+
+tasklist:
+
+Què mostra: Una llista de tots els processos i aplicacions que s'estan executant a l'ordinador en aquest precís moment.
+
+Dades clau: Mostra el nom del fitxer executable, l'identificador del procés (PID) i la quantitat de memòria RAM que està consumint cadascun. És com el "Administrador de tasques" però en format text.
+
+ipconfig:
+
+Què mostra: La configuració de xarxa de l'equip.
+
+Dades clau: Proporciona l'adreça IP de l'ordinador, la màscara de subxarxa i la porta d'enllaç predeterminada (la IP del router). És essencial per saber si estem connectats i com ens veu la xarxa.
+
+systeminfo:
+
+Què mostra: Un resum detallat de les propietats del programari i del maquinari (hardware) de l'equip.
+
+Dades clau: Informació sobre la versió de Windows, el processador, la quantitat de memòria RAM instal·lada, la placa base (BIOS), el nom de l'equip i fins i tot quan es va instal·lar el sistema per primer cop.
+
+
+
+
 
 
 
