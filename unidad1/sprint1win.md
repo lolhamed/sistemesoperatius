@@ -215,6 +215,14 @@ En cas que sigui manual, ho haurem de configurar nosaltres:
 <img width="382" height="632" alt="image" src="https://github.com/user-attachments/assets/0898a9ff-c13b-4557-8e8d-420cc148c54f" />
 
 
+Ping de prova per comprovar la connexió:
+
+<img width="617" height="242" alt="image" src="https://github.com/user-attachments/assets/cf197351-8fd9-4399-89d3-c46e46f7405f" />
+
+
+
+
+
 
 
 
