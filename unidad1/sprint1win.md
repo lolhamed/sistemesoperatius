@@ -140,4 +140,35 @@ Windows 11 Pro,~259 €,~150 € - 200 €,~15 € - 25 €
 
 <h2>FASE 4: GESTOR D'ARRENCADA</h2>
 
+Primer que res, obrim un cmc com administrador:
+<img width="449" height="311" alt="image" src="https://github.com/user-attachments/assets/4b984c81-4eda-4660-b137-8180977d9993" />
+
+
+Executem bcdedit i com podem veure tenim 2 blocs:
+
+<img width="607" height="564" alt="image" src="https://github.com/user-attachments/assets/ce80e1af-5d5d-40c5-a56f-8b8452f4fb6f" />
+
+El primer bloc és l'administrador d'arrencada de Windows:
+
+<img width="560" height="205" alt="image" src="https://github.com/user-attachments/assets/d4a736bb-34c6-43ab-b9d4-35e7fc238989" />
+
+És el primer programa que s'executa. Gestiona el menú d'arrencada (si tens diversos sistemes operatius) i decideix quin carregar.
+
+
+
+El segon bloc és el carregador d'arrencada de Windows:
+
+<img width="624" height="283" alt="image" src="https://github.com/user-attachments/assets/1cf4396e-16a9-467e-89ee-a0711ff8cca5" />
+
+És el que realment carrega el nucli (kernel) de Windows, els controladors i el sistema operatiu en si.
+
+
+
+
+
+
+
+
+
+
 
