@@ -141,6 +141,8 @@ Windows 11 Pro,~259 €,~150 € - 200 €,~15 € - 25 €
 <h2>FASE 4: GESTOR D'ARRENCADA</h2>
 
 Primer que res, obrim un cmc com administrador:
+
+
 <img width="449" height="311" alt="image" src="https://github.com/user-attachments/assets/4b984c81-4eda-4660-b137-8180977d9993" />
 
 
