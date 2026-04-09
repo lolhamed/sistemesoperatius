@@ -222,6 +222,9 @@ Ping de prova per comprovar la connexió:
 <img width="617" height="242" alt="image" src="https://github.com/user-attachments/assets/cf197351-8fd9-4399-89d3-c46e46f7405f" />
 
 
+<h2>FASE 6: COMANDES GENERALS</h2>
+
+
 
 
 
