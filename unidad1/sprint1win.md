@@ -191,6 +191,31 @@ Qui decideix l'arrencada (Boot Manager): L'Administrador d'arrencada de Windows 
 Qui carrega el sistema (Boot Loader): El Carregador d'arrencada és el responsable de preparar l'entorn de programari i carregar el nucli (kernel) de Windows i els controladors crítics a la memòria RAM per iniciar la sessió.
 
 
+<h2> FASE 5: XARXA BÀSICA</h2>
+
+Si anem a l'apartat de configuració de xarxa i internet podrem veure el nostre estat de red:
+
+<img width="799" height="512" alt="image" src="https://github.com/user-attachments/assets/a53c9d79-e4f4-49be-8be1-7b42391a5d5d" />
+
+
+Si escrivim la comanda ipconfig al cmd es motra la configuració IP:
+
+<img width="757" height="281" alt="image" src="https://github.com/user-attachments/assets/6f564a4c-43e5-4425-82bc-144837231037" />
+
+Útil per a comprovar la IP
+
+
+També, si anem a propietats, podrem configurar el DHCP (protocol que assigna les IPs) per defecte està automàtic:
+
+<img width="650" height="488" alt="image" src="https://github.com/user-attachments/assets/b9def138-bf10-423e-8e37-57c119a9b779" />
+
+
+En cas que sigui manual, ho haurem de configurar nosaltres:
+
+<img width="382" height="632" alt="image" src="https://github.com/user-attachments/assets/0898a9ff-c13b-4557-8e8d-420cc148c54f" />
+
+
+
 
 
 
