@@ -322,6 +322,11 @@ Què mostra: Un resum detallat de les propietats del programari i del maquinari 
 Dades clau: Informació sobre la versió de Windows, el processador, la quantitat de memòria RAM instal·lada, la placa base (BIOS), el nom de l'equip i fins i tot quan es va instal·lar el sistema per primer cop.
 
 
+<h2> FASE 7: INSTAL·LACIÓ D'APLICACIONS:</h2>
+
+
+
+
 
 
 
