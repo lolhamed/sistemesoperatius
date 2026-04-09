@@ -341,11 +341,25 @@ Instal·lació completada, com podem veure funciona perfectament:
 
 
 
+També és pot instal·lar aplicacions desde Microsoft Store (més limitada):
+
+<img width="999" height="719" alt="image" src="https://github.com/user-attachments/assets/4605487a-e5a2-433c-85b2-8f3ac9f890ed" />
 
 
+Per a desinstal·lar una aplicació, en aquest cas Opera, tenim diferents maneres. La més simple és anar a configuració a l'apartat d'aplicacions i seleccionar la que volem desinstal·lar:
 
 
+<img width="442" height="133" alt="image" src="https://github.com/user-attachments/assets/1710619e-1c9b-41f6-9b4e-d665c1e29a26" />
 
+
+<img width="638" height="391" alt="image" src="https://github.com/user-attachments/assets/50b9c18e-1391-4e0b-be4f-532026457640" />
+
+
+Continuem amb l'assistent de desinstal·lació:
+
+<img width="647" height="389" alt="image" src="https://github.com/user-attachments/assets/b5feb08c-e726-4a6e-b7ae-5190b1a41d0d" />
+
+I l'aplicació s'ha desinstal·lat.
 
 
 
