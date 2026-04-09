@@ -335,6 +335,9 @@ Instal·lació en curs
 <img width="623" height="384" alt="image" src="https://github.com/user-attachments/assets/4f49a829-a3b3-4856-9d58-ebdd340c13df" />
 
 
+Instal·lació completada, com podem veure funciona perfectament:
+
+<img width="752" height="538" alt="image" src="https://github.com/user-attachments/assets/a11e9627-2f31-4688-a7d5-86c9f884602e" />
 
 
 
