@@ -165,6 +165,34 @@ El segon bloc és el carregador d'arrencada de Windows:
 
 
 
+Una interpretació....
+
+device: Indica en quina partició o disc es troben els fitxers d'arrencada (per exemple, partition=C:).
+
+path: La ruta del fitxer executable (sol ser \Windows\system32\winload.exe).
+
+description: El nom que veus quan s'encén l'ordinador (ex: "Windows 10" o "Windows 11").
+
+locale: L'idioma de l'arrencada (ex: es-ES).
+
+default: L'identificador del sistema que s'arrencarà per defecte si no toques res.
+
+
+El sistema que s'està arrencant es Windows 10
+
+Està instal·lat a partition=C
+
+Abans d'arrencar, espera 30 segons, es pot veure a la linia timeout a l'apartat de l'administrador d'arrencada.
+
+A a linia path a l'apartat carregador d'arrencada de Windows és veu el fitxer que inicia windows, que es el system32\winload.exe
+
+Qui decideix l'arrencada (Boot Manager): L'Administrador d'arrencada de Windows és el programa que gestiona el menú inicial i decideix quin sistema operatiu o eina de recuperació s'ha d'executar segons la configuració del BCD.
+
+Qui carrega el sistema (Boot Loader): El Carregador d'arrencada és el responsable de preparar l'entorn de programari i carregar el nucli (kernel) de Windows i els controladors crítics a la memòria RAM per iniciar la sessió.
+
+
+
+
 
 
 
