@@ -109,3 +109,32 @@ Com podem veure Google Chrome no està instal·lat, ja que és el canvi que hem 
 
 
 <h2>FASE 3:LLICÈNCIES DE WINDOWS</h2>
+
+Si anem a configuració podem veure que la llicència no està activada:
+
+<img width="795" height="283" alt="image" src="https://github.com/user-attachments/assets/b3248ec7-9da7-442b-881c-0d234c952665" />
+
+
+Si executem al cmd slmgr /xpr podrem veure que Windows està en mode notificació, al fer la comanda al cmd em surt que tinc la versió core ( equivalent a Windows Home) indicant que Windows no està activat:
+
+<img width="892" height="503" alt="image" src="https://github.com/user-attachments/assets/a22e64b8-8155-4da3-935d-53a63757a676" />
+
+Quan Windows està en aquest mode, significa que el sistema ha detectat que no té una llicència vàlida o que el període de gràcia ha expirat. L'usuari rebrà avisos constants (notificacions) i tindrà limitacions, com no poder personalitzar el fons de pantalla o els colors del sistema.
+
+
+N'hi han 3 tipus de llicenciament:
+
+OEM (Original Equipment Manufacturer): Són les que venen preinstal·lades quan compres un ordinador (HP, Dell, Lenovo). Queden lligades a la placa base de l'ordinador i no es poden transferir a un altre PC.
+
+Retail (Retail/FPP): Són les que compres a la botiga de Microsoft o en format físic. Es poden transferir d'un ordinador a un altre (sempre que només estigui activa en un a la vegada).
+
+Voleme (VLC/KMS): Són llicències per a empreses o centres educatius que permeten activar molts ordinadors simultàniament amb una sola clau o un servidor local.
+
+
+En quant al preu...
+
+Tipus de Llicència,Web Oficial (Microsoft),Botigues Digitals (Amazon/PC Componentes),"Mercat de ""Claus"" (OEM barates)"
+Windows 11 Home,~145 €,~110 € - 130 €,~10 € - 20 €
+Windows 11 Pro,~259 €,~150 € - 200 €,~15 € - 25 €
+
+
