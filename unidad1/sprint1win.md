@@ -163,7 +163,7 @@ El segon bloc és el carregador d'arrencada de Windows:
 És el que realment carrega el nucli (kernel) de Windows, els controladors i el sistema operatiu en si.
 
 
-
+--
 
 Una interpretació....
 
