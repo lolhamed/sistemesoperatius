@@ -359,7 +359,12 @@ Continuem amb l'assistent de desinstal·lació:
 
 <img width="647" height="389" alt="image" src="https://github.com/user-attachments/assets/b5feb08c-e726-4a6e-b7ae-5190b1a41d0d" />
 
-I l'aplicació s'ha desinstal·lat.
+
+
+I l'aplicació s'ha desinstal·lat. Opera ja no apareix al sistema operatiu.
+
+<img width="1023" height="771" alt="image" src="https://github.com/user-attachments/assets/9b70b5ae-9345-4d1e-8b44-bad9edb7495d" />
+
 
 
 
