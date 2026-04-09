@@ -301,6 +301,8 @@ amb help podem veure les comandes que podem usar:
 
 <img width="763" height="396" alt="image" src="https://github.com/user-attachments/assets/f0f6147b-eab2-4bd2-9b19-786f6b7eabf9" />
 
+
+
 tasklist:
 
 Què mostra: Una llista de tots els processos i aplicacions que s'estan executant a l'ordinador en aquest precís moment.
