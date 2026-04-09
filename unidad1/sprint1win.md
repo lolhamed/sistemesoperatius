@@ -262,6 +262,26 @@ I amb del borrem un fitxer:
 <img width="265" height="53" alt="image" src="https://github.com/user-attachments/assets/8bf3da00-e422-433b-9a6e-ba75b43d0f04" />
 
 
+Podem veure els processos actius amb tasklist:
+
+<img width="727" height="706" alt="image" src="https://github.com/user-attachments/assets/5402d947-770c-4908-9c0d-a64ab56e89ff" />
+
+
+Amb systeminfo podrem veure informació relacionada al dispositiu:
+
+<img width="926" height="598" alt="image" src="https://github.com/user-attachments/assets/a48aabe2-149c-4fc3-ae2f-148e93cbe085" />
+
+
+Amb hostname podem veure el nom del host:
+
+<img width="250" height="80" alt="image" src="https://github.com/user-attachments/assets/dd2e2930-83ad-4a3f-8699-01ab7a896cd7" />
+
+
+
+
+
+
+
 
 
 
