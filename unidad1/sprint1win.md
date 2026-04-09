@@ -133,7 +133,6 @@ Voleme (VLC/KMS): Són llicències per a empreses o centres educatius que permet
 
 En quant al preu...
 
-Tipus de Llicència,Web Oficial (Microsoft),Botigues Digitals (Amazon/PC Componentes),"Mercat de ""Claus"" (OEM barates)"
 Windows 11 Home,~145 €,~110 € - 130 €,~10 € - 20 €
 Windows 11 Pro,~259 €,~150 € - 200 €,~15 € - 25 €
 
