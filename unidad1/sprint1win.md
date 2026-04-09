@@ -330,6 +330,11 @@ En aquesta fase instal·laré opera, per tant aniré a la pàgina oficial i baix
 <img width="926" height="280" alt="image" src="https://github.com/user-attachments/assets/42e38ffd-0817-4889-a0c6-b7fe1f8592a8" />
 
 
+Instal·lació en curs
+
+<img width="623" height="384" alt="image" src="https://github.com/user-attachments/assets/4f49a829-a3b3-4856-9d58-ebdd340c13df" />
+
+
 
 
 
