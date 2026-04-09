@@ -222,7 +222,51 @@ Ping de prova per comprovar la connexió:
 <img width="617" height="242" alt="image" src="https://github.com/user-attachments/assets/cf197351-8fd9-4399-89d3-c46e46f7405f" />
 
 
+
 <h2>FASE 6: COMANDES GENERALS</h2>
+
+Tenim 2 tipus de terminals a Windows:
+
+
+Powershell:
+
+<img width="766" height="306" alt="image" src="https://github.com/user-attachments/assets/c6ca646c-acc5-47a7-90a6-51970b606bd2" />
+
+
+CMD:
+
+<img width="699" height="291" alt="image" src="https://github.com/user-attachments/assets/eb1a0259-b9da-48d9-9cb7-4044a575f8e6" />
+
+
+
+La diferència es que PowerShell és més potent, permetent treballar amb objectes i automatitzar (scripts).
+
+
+La comanda dir ens permet veure tots els fitxers:
+
+<img width="498" height="410" alt="image" src="https://github.com/user-attachments/assets/3c9e2275-3ad5-4f48-8a91-9840d631f6b2" />
+
+
+Amb mkdir podem crear una carpeta:
+
+<img width="265" height="49" alt="image" src="https://github.com/user-attachments/assets/cf87566b-963e-4097-bd27-9b7956dea34e" />
+
+
+Amb echo creem un fitxer:
+
+<img width="348" height="53" alt="image" src="https://github.com/user-attachments/assets/b2f004b5-18a7-44b6-b3c3-681f8a284344" />
+
+
+I amb del borrem un fitxer:
+
+<img width="265" height="53" alt="image" src="https://github.com/user-attachments/assets/8bf3da00-e422-433b-9a6e-ba75b43d0f04" />
+
+
+
+
+
+
+
 
 
 
