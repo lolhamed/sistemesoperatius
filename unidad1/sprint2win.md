@@ -213,9 +213,24 @@ Després a l'apartat "opcions avançades"
 <img width="770" height="519" alt="image" src="https://github.com/user-attachments/assets/b5f01549-2fdd-4eaa-9a04-c4da87c0614d" />
 
 
-Deshabilitem l'herencia:
+Deshabilitem l'herencia i clickem l'opció convertir permissos heredats a permisos explícits:
 
 
 <img width="535" height="274" alt="image" src="https://github.com/user-attachments/assets/d0f037eb-adae-4c0f-83cf-04db4473ecaa" />
 
 
+
+<img width="908" height="573" alt="image" src="https://github.com/user-attachments/assets/f71b0a7e-7a5d-4fc4-bbc1-339e436ac0c6" />
+
+
+
+<img width="471" height="251" alt="image" src="https://github.com/user-attachments/assets/6b4590d1-d107-4eb7-8af9-c414e3092100" />
+
+
+
+<img width="715" height="462" alt="image" src="https://github.com/user-attachments/assets/00a743b7-3cef-4e82-91b6-1d62c8f5bd37" />
+
+
+
+
+<img width="773" height="514" alt="image" src="https://github.com/user-attachments/assets/83eb1d11-7c12-4109-a39c-1301f23bb1ed" />
