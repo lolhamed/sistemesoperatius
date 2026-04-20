@@ -144,5 +144,5 @@ Si anem a la partició backups, podrem veure la carpeta copies usuaris:
 
 
 
-
+## FASE 4: VERIFICACIÓ I DOCUMENTACIÓ ##
 
