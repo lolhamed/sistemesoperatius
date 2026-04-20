@@ -30,6 +30,23 @@ Configurem la partició anomenada "Dades":
 <img width="497" height="395" alt="image" src="https://github.com/user-attachments/assets/2b2013f6-05ca-4185-a915-5322c0f5414b" />
 
 
+El mateix amb la partició anomenada "Portable":
+
+<img width="496" height="391" alt="image" src="https://github.com/user-attachments/assets/d70927e2-3d66-4598-9d9f-4a2d2e619837" />
+
+
+Aqui tenim les particions que hem creat/configurat:
+
+<img width="754" height="600" alt="image" src="https://github.com/user-attachments/assets/b9fcac2d-a42b-4345-9e6a-3cce82108d8b" />
+
+
+Després anem a diskpart i dins de diskpart, fem la comanda "list volume", ens sortirà les particions que hem fet fins al moment:
+
+
+<img width="746" height="309" alt="image" src="https://github.com/user-attachments/assets/5c35ad8d-6a62-4ad8-bada-c2b11a7cec1f" />
+
+
+
 
 
 
