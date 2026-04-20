@@ -117,6 +117,12 @@ I ens surt un error de cuota al intentar afegir el fitxer al disc:
 
 
 
+## FASE 3: SCRIPT DE CÒPIA I AUTOMATITZACIÓ ##
+
+
+Creem la partició "backups":
+
+<img width="499" height="389" alt="image" src="https://github.com/user-attachments/assets/36f49764-c2b5-42b9-8403-3b0f19049379" />
 
 
 
