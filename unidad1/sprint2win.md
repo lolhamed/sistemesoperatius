@@ -70,6 +70,40 @@ Acceptem el misstage que s'hi mostra:
 <img width="406" height="205" alt="image" src="https://github.com/user-attachments/assets/ee049947-ec4f-446e-b39d-2acc5eaa3cdb" />
 
 
+Ara crearen els comptes per als alumnes pero no em surt ja que estic utilitzant Windows 10 HOME  per tant ho faré amb el cmd :
+
+<img width="991" height="531" alt="image" src="https://github.com/user-attachments/assets/6c499d4c-c26e-43c0-8705-f2ab89e16adf" />
+
+
+Creem el usuari alumne1
+
+<img width="501" height="61" alt="image" src="https://github.com/user-attachments/assets/436752ea-ae38-4264-9e9c-4b6beb0e9caf" />
+
+
+Creem el usuari alumne2
+
+<img width="528" height="128" alt="image" src="https://github.com/user-attachments/assets/e9314887-86d7-4d49-bb66-0ca1d048bc68" />
+
+
+Ara creem el grup:
+
+<img width="460" height="142" alt="image" src="https://github.com/user-attachments/assets/b682e6b0-8229-4096-9f94-41a8bb5206fd" />
+
+
+
+I posteriorment afegim els usuaris al grup:
+
+<img width="511" height="198" alt="image" src="https://github.com/user-attachments/assets/1d85de74-4894-4c78-b00f-3c0bff8710c2" />
+
+
+Ara provarem les cuotes de disc que acabem de configurar i per aixó iniciarem sessió com a alumne1:
+
+
+
+
+
+
+
 
 
 
