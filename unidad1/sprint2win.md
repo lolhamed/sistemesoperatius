@@ -223,6 +223,17 @@ Deshabilitem l'herencia i clickem l'opció convertir permissos heredats a permis
 
 
 
+Neteja la llista: Elimina qualsevol entrada que digui Users o Everyone (Tots). 
+
+
+Afegeix el grup: Clica a Agregar > Seleccionar una entidad de seguridad. 
+
+Escriu Limitats i clica a Aceptar. 
+
+Marca la casella Control total. 
+
+Clica Aceptar a totes les finestres.
+
 
 <img width="908" height="573" alt="image" src="https://github.com/user-attachments/assets/f71b0a7e-7a5d-4fc4-bbc1-339e436ac0c6" />
 
