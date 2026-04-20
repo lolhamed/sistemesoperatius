@@ -220,7 +220,14 @@ Deshabilitem l'herencia i clickem l'opció convertir permissos heredats a permis
 
 
 
+
+
+
+
 <img width="908" height="573" alt="image" src="https://github.com/user-attachments/assets/f71b0a7e-7a5d-4fc4-bbc1-339e436ac0c6" />
+
+
+
 
 
 
@@ -228,7 +235,13 @@ Deshabilitem l'herencia i clickem l'opció convertir permissos heredats a permis
 
 
 
+
+
+
 <img width="715" height="462" alt="image" src="https://github.com/user-attachments/assets/00a743b7-3cef-4e82-91b6-1d62c8f5bd37" />
+
+
+
 
 
 
