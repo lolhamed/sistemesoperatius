@@ -257,4 +257,4 @@ Clica Aceptar a totes les finestres.
 
 
 
-<img width="773" height="514" alt="image" src="https://github.com/user-attachments/assets/83eb1d11-7c12-4109-a39c-1301f23bb1ed" />
+
