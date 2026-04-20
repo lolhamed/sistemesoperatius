@@ -47,6 +47,13 @@ Després anem a diskpart i dins de diskpart, fem la comanda "list volume", ens s
 
 
 
+## FASE 2: QUOTES I USUARIS ##
+
+
+
+
+
+
 
 
 
