@@ -99,9 +99,21 @@ I posteriorment afegim els usuaris al grup:
 Ara provarem les cuotes de disc que acabem de configurar i per aixó iniciarem sessió com a alumne1:
 
 
+Estem a l'usuari alumne1:
+
+<img width="299" height="379" alt="image" src="https://github.com/user-attachments/assets/329e6bba-41f8-4f71-8703-28faa0512ec3" />
 
 
+Per fer la prova a l'usuari alumne1 creem un fitxer de 350mb:
 
+<img width="802" height="160" alt="image" src="https://github.com/user-attachments/assets/b7959907-e649-4215-8564-4023ba4279f6" />
+
+
+<img width="599" height="425" alt="image" src="https://github.com/user-attachments/assets/a2a55d55-a3ac-4ff7-a16e-05488fae7460" />
+
+I ens surt un error de cuota:
+
+<img width="437" height="264" alt="image" src="https://github.com/user-attachments/assets/8729db0b-cdc3-4e37-8cb9-92f1d14cf433" />
 
 
 
