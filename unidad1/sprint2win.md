@@ -264,7 +264,7 @@ Si anem a alumne1 podrem veure que també tindrem permisos ja que els ha heredat
 <img width="789" height="479" alt="image" src="https://github.com/user-attachments/assets/9f15a8bf-bb8d-4501-a235-e044a5d1d40b" />
 
 
-Ara anem a marginar alumne2 de la carpeta amb la comanda següent:
+Ara anem a marginar alumne2 de la carpeta amb la comanda següent de manera que només tindrà permisos de lectura:
 
 <img width="622" height="118" alt="image" src="https://github.com/user-attachments/assets/c922bf22-acfc-4537-a48e-d045a2aa3023" />
 
