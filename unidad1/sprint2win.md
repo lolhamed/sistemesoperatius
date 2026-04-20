@@ -146,3 +146,28 @@ Si anem a la partició backups, podrem veure la carpeta copies usuaris:
 
 ## FASE 5: GESTIÓ DE PROCESSOS I SERVEIS ##
 
+Entrem com a alumne1 i anem al cmd a escriure la comanda:
+
+<img width="721" height="421" alt="image" src="https://github.com/user-attachments/assets/80071624-3dc6-4943-9606-f6350c7b469e" />
+
+
+
+Guardem el llistat en un txt
+
+<img width="570" height="48" alt="image" src="https://github.com/user-attachments/assets/4a6b9095-47cc-4238-bb85-f7077d26563d" />
+
+
+
+Ara mirem la llista i considerarem quins processos són útils i quins no:
+
+
+
+OneDrive.exe,(Mira el valor al fitxer txt),No fem servir emmagatzematge al núvol en aquesta pràctica.
+Teams.exe,(Mira el valor al fitxer txt),Consumeix molta RAM i no necessitem xat.
+
+
+<img width="724" height="213" alt="image" src="https://github.com/user-attachments/assets/e0521450-4d59-4ad6-b191-a085da23cc86" />
+
+
+
+
