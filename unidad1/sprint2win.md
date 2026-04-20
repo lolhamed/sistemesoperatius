@@ -269,5 +269,7 @@ Ara anem a marginar alumne2 de la carpeta amb la comanda següent de manera que 
 <img width="622" height="118" alt="image" src="https://github.com/user-attachments/assets/c922bf22-acfc-4537-a48e-d045a2aa3023" />
 
 
+Alumne2 té la R de read només
+<img width="348" height="39" alt="image" src="https://github.com/user-attachments/assets/ea2c1e7c-39de-435b-bf12-dfdf8e687fc9" />
 
 
