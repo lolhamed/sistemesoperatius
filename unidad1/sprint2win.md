@@ -50,6 +50,25 @@ Després anem a diskpart i dins de diskpart, fem la comanda "list volume", ens s
 ## FASE 2: QUOTES I USUARIS ##
 
 
+Anem a l'explorador de fitxers i anem a l'apartat "Aquest equip", per veure les nostres particions que hem creat a la fase 1:
+
+<img width="781" height="569" alt="image" src="https://github.com/user-attachments/assets/8025e556-65c9-4129-b10a-2c754e4bdfcc" />
+
+
+Si anem a les propietats de la partició "dades" i després anem a l'apartat de quotes podrem establir un límit:
+
+<img width="358" height="447" alt="image" src="https://github.com/user-attachments/assets/7e2aee50-ab2d-4e37-ae24-641f2d10d37d" />
+
+
+El que hem fet és denegar espai de desic a usuaris que superen el límit de cuota, limitar espai de disc a 300MB i establir el nivell d'advertencia a 250mb:
+
+<img width="362" height="447" alt="image" src="https://github.com/user-attachments/assets/5cf826c9-65fe-4203-874c-ab62c9e2ebcf" />
+
+
+Acceptem el misstage que s'hi mostra:
+
+<img width="406" height="205" alt="image" src="https://github.com/user-attachments/assets/ee049947-ec4f-446e-b39d-2acc5eaa3cdb" />
+
 
 
 
