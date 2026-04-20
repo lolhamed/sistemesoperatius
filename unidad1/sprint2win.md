@@ -171,3 +171,25 @@ Teams.exe,(Mira el valor al fitxer txt),Consumeix molta RAM i no necessitem xat.
 
 
 
+Matem un procés:
+
+<img width="571" height="90" alt="image" src="https://github.com/user-attachments/assets/c9b844ab-6c7c-4b23-a093-fc01d5202c73" />
+
+
+
+Ara editem el nostre scrip d'abans per a que pugui matar també processos innecessaris sense necessitat de ferho manualment.
+
+taskkill: És l'ordre per tancar programes.
+
+
+/IM: Significa "Image Name", per identificar el programa pel seu nom.
+
+
+/F: Força el tancament (molt útil si el programa s'ha quedat penjat).
+
+
+
+<img width="753" height="223" alt="image" src="https://github.com/user-attachments/assets/8477a241-e78a-4bec-a529-ed978421c238" />
+
+
+
