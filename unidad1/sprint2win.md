@@ -193,3 +193,29 @@ taskkill: És l'ordre per tancar programes.
 
 
 
+## FASE 6: GESTIÓ DE PERMISSOS (ACL) ##
+
+Creem la carpeta projectes:
+
+
+<img width="439" height="235" alt="image" src="https://github.com/user-attachments/assets/2aaa361a-1ad3-4538-b03f-c24f486d0d3d" />
+
+
+Anem a propietats i a la pestanya seguretat:
+
+
+<img width="361" height="475" alt="image" src="https://github.com/user-attachments/assets/a069ac8c-ab9a-4ca5-9e64-ffaa4d41d4b9" />
+
+
+Després a l'apartat "opcions avançades"
+
+
+<img width="770" height="519" alt="image" src="https://github.com/user-attachments/assets/b5f01549-2fdd-4eaa-9a04-c4da87c0614d" />
+
+
+Deshabilitem l'herencia:
+
+
+<img width="535" height="274" alt="image" src="https://github.com/user-attachments/assets/d0f037eb-adae-4c0f-83cf-04db4473ecaa" />
+
+
