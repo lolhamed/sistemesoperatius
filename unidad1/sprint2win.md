@@ -126,6 +126,22 @@ Creem la partició "backups":
 
 
 
+Ara creem l'script:
+
+<img width="750" height="320" alt="image" src="https://github.com/user-attachments/assets/14639efa-0674-42d7-9956-ecf7e4951427" />
+
+
+
+Com que no tenim gedit, utilitzarem el planificador de tasques i afegim el script:
+
+<img width="653" height="579" alt="image" src="https://github.com/user-attachments/assets/afb112f6-63ec-4fd7-b5aa-3604f43f2f25" />
+
+
+
+Si anem a la partició backups, podrem veure la carpeta copies usuaris:
+
+<img width="795" height="402" alt="image" src="https://github.com/user-attachments/assets/d86c86ab-5fee-443b-ad57-5e0173770dfc" />
+
 
 
 
