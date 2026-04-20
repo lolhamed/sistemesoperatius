@@ -255,6 +255,19 @@ Clica Aceptar a totes les finestres.
 
 
 
+Si anem a alumne1 podrem veure que també tindrem permisos ja que els ha heredat de "limitats":
+
+
+<img width="444" height="302" alt="image" src="https://github.com/user-attachments/assets/e624b544-3649-49d9-85b3-ab16792e701a" />
+
+
+<img width="789" height="479" alt="image" src="https://github.com/user-attachments/assets/9f15a8bf-bb8d-4501-a235-e044a5d1d40b" />
+
+
+Ara anem a marginar alumne2 de la carpeta amb la comanda següent:
+
+<img width="622" height="118" alt="image" src="https://github.com/user-attachments/assets/c922bf22-acfc-4537-a48e-d045a2aa3023" />
+
 
 
 
