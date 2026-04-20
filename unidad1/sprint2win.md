@@ -111,7 +111,7 @@ Per fer la prova a l'usuari alumne1 creem un fitxer de 350mb:
 
 <img width="599" height="425" alt="image" src="https://github.com/user-attachments/assets/a2a55d55-a3ac-4ff7-a16e-05488fae7460" />
 
-I ens surt un error de cuota:
+I ens surt un error de cuota al intentar afegir el fitxer al disc:
 
 <img width="437" height="264" alt="image" src="https://github.com/user-attachments/assets/8729db0b-cdc3-4e37-8cb9-92f1d14cf433" />
 
