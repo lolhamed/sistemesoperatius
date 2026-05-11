@@ -38,3 +38,14 @@ Tornem a premer següent 2 vegades i a l'apartat de confirmació, marquem la cas
 <img width="778" height="559" alt="image" src="https://github.com/user-attachments/assets/b8979074-a6e3-4fc2-b373-9c764310c43d" />
 
 
+Fem click a "promoure servidor a controlador de domini":
+
+<img width="951" height="180" alt="image" src="https://github.com/user-attachments/assets/9d27ecb1-8a87-49e9-ba22-672c5688084d" />
+
+
+Despreś, ens sortirà una finestra que diu "configuració de implementació", fem click a l'apartat "agregar un nou bosc" i escrivim el nom del domini que volem:
+
+<img width="758" height="554" alt="image" src="https://github.com/user-attachments/assets/b5c878ab-1166-4e83-a126-8875efe151dc" />
+
+
+
