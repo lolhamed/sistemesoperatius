@@ -115,3 +115,8 @@ I finalment s'ha unit correctament al nostre domini:
 
 <img width="615" height="394" alt="image" src="https://github.com/user-attachments/assets/52927282-48ed-48c6-b497-899985ce6c74" />
 
+
+S'haur'a de reiniciar per aplicar els canvis:
+
+<img width="350" height="173" alt="image" src="https://github.com/user-attachments/assets/27cd81d1-314c-4127-ac43-709eb83c2147" />
+
