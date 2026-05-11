@@ -66,3 +66,52 @@ Després fem click dret al nostre domini i a nou, afegim una unitat organitzativ
 
 <img width="657" height="525" alt="image" src="https://github.com/user-attachments/assets/a68f51c2-542d-46fe-8aab-3a50d0668c8c" />
 
+
+Li fiquem el nom "classe":
+
+<img width="436" height="373" alt="image" src="https://github.com/user-attachments/assets/04a44af7-e3f4-436f-a67c-f2839f0ff16b" />
+
+
+Fem click dret a classe i afegim un nou usuari:
+
+<img width="717" height="497" alt="image" src="https://github.com/user-attachments/assets/72a4d229-05d9-407e-a5d6-fc43e09d8930" />
+
+
+<img width="429" height="374" alt="image" src="https://github.com/user-attachments/assets/668fbc39-b49d-419c-bb3e-553da2dd6ddd" />
+
+
+Ja ho tenim:
+
+<img width="751" height="521" alt="image" src="https://github.com/user-attachments/assets/011c799e-c8cc-4706-8cb9-ef85c5e50d00" />
+
+
+
+Ara al client configurem la ip del server dns i fiquem la ip del server:
+
+<img width="400" height="451" alt="image" src="https://github.com/user-attachments/assets/f9870683-03bd-48b4-a921-3e03b2f66a21" />
+
+
+Anem a propietats del sistema:
+
+<img width="406" height="471" alt="image" src="https://github.com/user-attachments/assets/c539e655-d101-4a13-9b55-6bb19d666ef1" />
+
+
+Anem a "nom d'equip" i premem "cambiar el nom d'aquest equip o cambiar el domini o grup de treball":
+
+<img width="409" height="489" alt="image" src="https://github.com/user-attachments/assets/835a04e1-89c7-439c-9d3c-0851b6bb26f8" />
+
+
+Escrivim el nostre domini:
+
+<img width="322" height="384" alt="image" src="https://github.com/user-attachments/assets/ee0bdfe5-a530-49db-b76b-ea8a02d2e2e2" />
+
+
+Fiquem les nostres credencials:
+
+<img width="448" height="326" alt="image" src="https://github.com/user-attachments/assets/fe1c6b25-ffe4-43bc-9024-9bdf552c9798" />
+
+
+I finalment s'ha unit correctament al nostre domini:
+
+<img width="615" height="394" alt="image" src="https://github.com/user-attachments/assets/52927282-48ed-48c6-b497-899985ce6c74" />
+
