@@ -48,4 +48,21 @@ Despreś, ens sortirà una finestra que diu "configuració de implementació", f
 <img width="758" height="554" alt="image" src="https://github.com/user-attachments/assets/b5c878ab-1166-4e83-a126-8875efe151dc" />
 
 
+Afegim la nostra contrasenya:
+
+<img width="758" height="560" alt="image" src="https://github.com/user-attachments/assets/1b35e716-d8cc-49ef-a782-e0bc70eaf35a" />
+
+
+Després farà un reinici:
+
+<img width="1014" height="729" alt="image" src="https://github.com/user-attachments/assets/2e1d34ca-062f-4d61-b083-cc7524ea01f2" />
+
+
+Una vegada s'ha reiniciat, farem click a "usuaris i equips d'active directory":
+
+<img width="1021" height="702" alt="image" src="https://github.com/user-attachments/assets/23c8ab48-1071-41b5-91e6-bac1a8d1b7e3" />
+
+Després fem click dret al nostre domini i a nou, afegim una unitat organitzativa:
+
+<img width="657" height="525" alt="image" src="https://github.com/user-attachments/assets/a68f51c2-542d-46fe-8aab-3a50d0668c8c" />
 
