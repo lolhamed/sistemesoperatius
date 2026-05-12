@@ -93,7 +93,7 @@ Com podem veure és totalment accesible:
 
 Ara farem una simul·lació de fallada (treure un disc):
 
-Tornem a l'administrador de discos i fem click dret a un disc, jo he escollit el disc 1:
+Tornem a l'administrador de discos i fem click dret a un disc i fem click a "sense connexió", jo he escollit el disc 1:
 
 <img width="299" height="355" alt="image" src="https://github.com/user-attachments/assets/c5c4f681-e1d6-4a7a-ad8b-21d675795c27" />
 
