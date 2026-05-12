@@ -13,6 +13,8 @@ Obrim la màquina i anem a disc manager:
 <img width="411" height="215" alt="image" src="https://github.com/user-attachments/assets/b929ae3b-dae6-4c7e-9950-297f19ea415b" />
 
 
+
+
 Després, quan ens surti l'assistent iniciem els discos com a MBR:
 
 <img width="415" height="303" alt="image" src="https://github.com/user-attachments/assets/25e64f2f-23b2-41bb-8401-4517ad2a229c" />
@@ -23,9 +25,13 @@ Important, no formatar ni crear particions:
 <img width="913" height="823" alt="image" src="https://github.com/user-attachments/assets/5e07fe9f-7f9c-40f2-b8aa-028d902d3369" />
 
 
+
+
 Després farem click dret sobre un dels discos i farem click a "nou volum RAID-5":
 
 <img width="914" height="473" alt="image" src="https://github.com/user-attachments/assets/d5fdda16-2f51-4269-989a-19aac534d139" />
+
+
 
 
 Agreguem els discos restants (en el meu cas havia fet click dret al disc 1 per tant afegeixo el disc 2 i el disc 3)
@@ -33,14 +39,20 @@ Agreguem els discos restants (en el meu cas havia fet click dret al disc 1 per t
 <img width="489" height="403" alt="image" src="https://github.com/user-attachments/assets/851f20ca-8816-4faa-9523-1bc6ebabe34f" />
 
 
+
+
 Assignem una lletra, en el meu cas és la lletra E:
 
 <img width="492" height="399" alt="image" src="https://github.com/user-attachments/assets/57d05cdf-e0a4-4167-85be-a20176192ca5" />
 
 
+
+
 Després, formatem el volum amb el sistema d'arxius NTFS, la mida de unitat d'assignació predeterminada i a la etiqueta de volum jo personalment li he ficat RAID5- Test:
 
 <img width="490" height="404" alt="image" src="https://github.com/user-attachments/assets/a7f43523-b235-4006-9dee-4de158a78ab0" />
+
+
 
 
 Final de la configuració:
