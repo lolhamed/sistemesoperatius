@@ -142,7 +142,10 @@ I també tindrem accés a la carpeta que prèviament hem creat:
 
 
 
-Per tant podem concluïr que RAID5 tolera com a molt la fallada d'un disc, NO és una còpia de seguretat i NO funciona si fallen els dos discs com hem vist abans.
+Per tant podem concluïr que RAID5 tolera com a molt la fallada d'un disc
+NO és una còpia de seguretat pero ofereix redundància.
+NO funciona si fallen els dos discs com hem vist abans.
+
 
 
 
