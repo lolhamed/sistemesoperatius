@@ -32,3 +32,23 @@ Agreguem els discos restants (en el meu cas havia fet click dret al disc 1 per t
 
 <img width="489" height="403" alt="image" src="https://github.com/user-attachments/assets/851f20ca-8816-4faa-9523-1bc6ebabe34f" />
 
+
+Assignem una lletra, en el meu cas és la lletra E:
+
+<img width="492" height="399" alt="image" src="https://github.com/user-attachments/assets/57d05cdf-e0a4-4167-85be-a20176192ca5" />
+
+
+Després, formatem el volum amb el sistema d'arxius NTFS, la mida de unitat d'assignació predeterminada i a la etiqueta de volum jo personalment li he ficat RAID5- Test:
+
+<img width="490" height="404" alt="image" src="https://github.com/user-attachments/assets/a7f43523-b235-4006-9dee-4de158a78ab0" />
+
+
+Final de la configuració:
+
+<img width="493" height="401" alt="image" src="https://github.com/user-attachments/assets/eb2dd333-32c3-4a48-b82a-ad40160b7b16" />
+
+
+
+
+
+
