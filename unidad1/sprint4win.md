@@ -34,6 +34,7 @@ Després farem click dret sobre un dels discos i farem click a "nou volum RAID-5
 
 
 
+
 Agreguem els discos restants (en el meu cas havia fet click dret al disc 1 per tant afegeixo el disc 2 i el disc 3)
 
 <img width="489" height="403" alt="image" src="https://github.com/user-attachments/assets/851f20ca-8816-4faa-9523-1bc6ebabe34f" />
