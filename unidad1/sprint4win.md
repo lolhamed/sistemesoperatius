@@ -66,6 +66,11 @@ Ara esperem a que el porcentatge arribi al 100& i una vegada acabada l'espera ti
 <img width="914" height="845" alt="image" src="https://github.com/user-attachments/assets/91bc82bf-0ee0-4804-acb6-a79cb4f286e8" />
 
 
+Aqui ho tenim:
+
+<img width="913" height="589" alt="image" src="https://github.com/user-attachments/assets/a29b3b5d-c9d8-431c-ad65-797b91f418ef" />
+
+
 
 
 
