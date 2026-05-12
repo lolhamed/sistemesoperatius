@@ -61,6 +61,11 @@ Final de la configuració:
 <img width="493" height="401" alt="image" src="https://github.com/user-attachments/assets/eb2dd333-32c3-4a48-b82a-ad40160b7b16" />
 
 
+Ara esperem a que el porcentatge arribi al 100& i una vegada acabada l'espera tindrem aixó:
+
+<img width="914" height="845" alt="image" src="https://github.com/user-attachments/assets/91bc82bf-0ee0-4804-acb6-a79cb4f286e8" />
+
+
 
 
 
