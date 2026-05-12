@@ -72,6 +72,24 @@ Aqui ho tenim:
 
 
 
+Ara farem proves de funcionalitat:
+
+
+Creem una carpeta de prova:
+
+<img width="472" height="291" alt="image" src="https://github.com/user-attachments/assets/6100123b-aa24-45a2-8cb3-1ca49e02bda1" />
+
+
+Ara afegim la carpeta a la RAID5:
+
+<img width="693" height="213" alt="image" src="https://github.com/user-attachments/assets/66aab445-1045-41a6-b67a-ac69f49628c2" />
+
+
+Com podem veure és totalment accesible:
+
+<img width="899" height="244" alt="image" src="https://github.com/user-attachments/assets/7f83ed37-71fd-4f5f-9ed4-d0c3130b061c" />
+
+
 
 
 
