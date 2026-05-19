@@ -65,3 +65,9 @@ FEM UN nano /etc/mdadm/mdadm.conf I Afegim la linia DEVICE /dev/sdb1 /dev/sdc1 :
 Hem de configurar el muntatge automàtic:
 
 Fem nano /etc/fstab
+
+Afegim aquesta linia:
+
+<img width="838" height="270" alt="image" src="https://github.com/user-attachments/assets/9f5e8360-ad67-474f-979f-80d76acb46ed" />
+
+
