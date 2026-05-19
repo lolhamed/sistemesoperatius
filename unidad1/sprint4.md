@@ -71,3 +71,43 @@ Afegim aquesta linia:
 <img width="838" height="270" alt="image" src="https://github.com/user-attachments/assets/9f5e8360-ad67-474f-979f-80d76acb46ed" />
 
 
+Ara farem proves de funcionament:
+
+Creem un fitxer de prova:
+
+<img width="538" height="113" alt="image" src="https://github.com/user-attachments/assets/0f41b7b9-0def-4a78-89db-d97ed1d91643" />
+
+
+Simulem la fallada d'un disc:
+
+<img width="734" height="545" alt="image" src="https://github.com/user-attachments/assets/972afd5a-06ab-47ec-b772-acb4e23377af" />
+
+El RAID continuarà funcionant.
+
+
+Eliminem el disc fallat:
+<img width="560" height="45" alt="image" src="https://github.com/user-attachments/assets/feb9143d-b036-4dc4-887d-5a28a55b3502" />
+
+El tornem a afegir i verifiquem l'estat una altra vegada:
+
+<img width="612" height="115" alt="image" src="https://github.com/user-attachments/assets/a258c110-512c-4974-9577-66009de71c90" />
+
+
+Per a borrar un raid fem un nano /etc/fstab:
+
+<img width="846" height="316" alt="image" src="https://github.com/user-attachments/assets/b2df9d2c-e61f-417e-9fe9-df3a4088f254" />
+
+I borrem la última linia:
+<img width="846" height="311" alt="image" src="https://github.com/user-attachments/assets/43e59704-c8fd-44fd-96b3-830794c989e8" />
+
+Ara aturem el raid:
+<img width="469" height="61" alt="image" src="https://github.com/user-attachments/assets/ee648b21-d88e-46f2-ad97-29bcad3f1f95" />
+
+Eliminem el punt de muntatge:
+
+<img width="823" height="127" alt="image" src="https://github.com/user-attachments/assets/c9faaf12-eecf-4d96-9f63-c991623239f3" />
+
+Netejem els discos:
+<img width="739" height="41" alt="image" src="https://github.com/user-attachments/assets/f2aef3e5-de46-4d92-82b6-dc259c1c3b6a" />
+
+
